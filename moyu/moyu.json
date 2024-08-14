@@ -18,6 +18,7 @@
             "name": "🔞绝美视频",
             "type": 3,
             "api": "csp_XBPQ",
+             "jar": "./lib/xpbq.php",
             "style": {
                 "type": "rect",
                 "ratio": 1.5
