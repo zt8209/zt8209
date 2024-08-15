@@ -2734,29 +2734,7 @@
 			"order_num": 0,
 			"ext": "./drpy_js/36直播[密].js"
 		},
-		{
-			"key": "hipy_js_爱爱影院[密]",
-			"name": "爱爱影院[密](drpy_t3)",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./drpy_js/爱爱影院[密].js"
-		},
 
-		{
-			"key": "hipy_js_草莓秒播[密]",
-			"name": "草莓秒播[密](drpy_t3)",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./drpy_js/草莓秒播[密].js"
-		},
 		{
 			"key": "hipy_js_地瓜视频[密]",
 			"name": "地瓜视频[密](drpy_t3)",
@@ -2792,51 +2770,6 @@
 		},
 
 		{
-			"key": "hipy_js_九妖仓库[密]",
-			"name": "九妖仓库[密](drpy_t3)",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./drpy_js/九妖仓库[密].js"
-		},
-		{
-			"key": "hipy_js_老司视频[密]",
-			"name": "老司视频[密](drpy_t3)",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./drpy_js/老司视频[密].js"
-		},
-
-		{
-			"key": "hipy_js_路视频[密]",
-			"name": "路视频[密](drpy_t3)",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./drpy_js/路视频[密].js"
-		},
-		{
-			"key": "hipy_js_绿色仓库[密]",
-			"name": "绿色仓库[密](drpy_t3)",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./drpy_js/绿色仓库[密].js"
-		},
-		{
 			"key": "hipy_js_漫画走廊[画密飞]",
 			"name": "漫画走廊[画密飞](drpy_t3)",
 			"type": 3,
@@ -2847,17 +2780,7 @@
 			"order_num": 0,
 			"ext": "./drpy_js/漫画走廊[画密飞].js"
 		},
-		{
-			"key": "hipy_js_千百视频[密]",
-			"name": "千百视频[密](drpy_t3)",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./drpy_js/千百视频[密].js"
-		},
+
 		{
 			"key": "hipy_js_色库[密]",
 			"name": "色库[密](drpy_t3)",
@@ -2880,17 +2803,6 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/一点视频[密].js"
-		},
-		{
-			"key": "hipy_js_Pornhub[密]",
-			"name": "Pornhub[密](drpy_t3)",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./drpy_js/Pornhub[密].js"
 		},
 
 		{
