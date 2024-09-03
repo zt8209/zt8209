@@ -47,6 +47,22 @@
         "伦理片"
       ]
     },
+{
+            "key": "绝美视频",
+            "name": "🔞绝美视频",
+            "type": 3,
+            "api": "csp_XBPQ",
+             "jar": "./lib/xpbq.php",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            },
+            "ext": {
+                "主页url": "https://www.juemei.fun/",
+                "分类url": "https://www.juemei.fun/type/{cateId}-{catePg}.html;;z",
+                "分类": "tsuki$1#jeehyeon$13#YeonHwa$2#KYUL$3#ChoiApple$4#클로이 요가 Chloe YOGA$5#jiyoung$12#임제리 IMJERRY LOOKBOOK$7#Ajin lookbook$8#엔픽컴퍼니 Official$9#Saki Vlog$10#HAATSSOl 햇쏠 LOOKBOOK VLOGER$11#yunji$14#GGotBBang TV$15#슬렌서아 Slenn Seoah$6"
+            }
+        },
     {
       "key": "爱情资源",
       "name": "🔞爱情世界",
