@@ -3,27 +3,39 @@
   "logo": "https://gitee.com/xmbjmjk/slt/raw/master/logo.gif",
   "sites": [
     {
-      "key": "csp_XYQHiker_兔小贝",
-      "name": "🐰公众号：【拾光趣乐屋】",
+      "key": "小学",
+      "name": "🌏小学教育",
       "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
+      "api": "csp_Bili",
+      "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/兔小贝.json",
-      "jar": "./lib/csp_XYQHiker_兔小贝.jar"
+      "ext": "./lib/哔哩哔哩小学.json",
+      "jar": ""
     },
     {
-      "key": "csp_XYQHiker_兔小贝2",
-      "name": "🐰兔小贝2",
+      "key": "初中",
+      "name": "🌏初中教育",
       "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
+      "api": "csp_Bili",
+      "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/兔小贝2.json",
-      "jar": "./lib/csp_XYQHiker_兔小贝.jar"
+      "ext": "./lib/哔哩哔哩初中.json",
+      "jar": ""
     },
+    {
+      "key": "高中",
+      "name": "🌏高中教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/哔哩哔哩高中.json",
+      "jar": ""
+    },
+   
     {
       "key": "csp_XYQHiker_童趣",
       "name": "🍭童趣",
@@ -35,37 +47,37 @@
       "ext": "./lib/播视童趣.json",
       "jar": "./lib/csp_XYQHiker_兔小贝.jar"
     },
-    {
-      "key": "幼儿启蒙",
-      "name": "🌏幼儿启蒙",
+      {
+      "key": "儿童思维",
+      "name": "🌏儿童思维",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/幼儿启蒙.json",
+      "ext": "./lib/儿童思维.json",
       "jar": ""
     },
     {
-      "key": "益智",
-      "name": "🌏益智┃动画",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "./lib/益智动画.json",
-      "jar": ""
-    },
-    {
-      "key": "幼小衔接",
-      "name": "🌏幼小衔接",
+      "key": "儿童口才",
+      "name": "🌏儿童口才",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/幼小衔接.json",
+      "ext": "./lib/儿童口才.json",
+      "jar": ""
+    },
+    {
+      "key": "儿童编程",
+      "name": "🌏儿童编程",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/儿童编程.json",
       "jar": ""
     },
     {
@@ -167,39 +179,7 @@
       "ext": "./lib/儿童硬笔.json",
       "jar": ""
     },
-    {
-      "key": "儿童思维",
-      "name": "🌏儿童思维",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/儿童思维.json",
-      "jar": ""
-    },
-    {
-      "key": "儿童口才",
-      "name": "🌏儿童口才",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/儿童口才.json",
-      "jar": ""
-    },
-    {
-      "key": "儿童编程",
-      "name": "🌏儿童编程",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/儿童编程.json",
-      "jar": ""
-    },
+  
     {
       "key": "儿童武术",
       "name": "🌏儿童武术",
@@ -223,39 +203,6 @@
       "jar": ""
     },
     {
-      "key": "小学",
-      "name": "🌏小学教育",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/哔哩哔哩小学.json",
-      "jar": ""
-    },
-    {
-      "key": "初中",
-      "name": "🌏初中教育",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/哔哩哔哩初中.json",
-      "jar": ""
-    },
-    {
-      "key": "高中",
-      "name": "🌏高中教育",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/哔哩哔哩高中.json",
-      "jar": ""
-    },
-    {
       "key": "py_cctv_1",
       "name": "🅱️央视-少儿",
       "type": 3,
@@ -274,6 +221,61 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./lib/央视经典.json",
+      "jar": ""
+    },
+ {
+      "key": "csp_XYQHiker_兔小贝",
+      "name": "🐰公众号：【拾光趣乐屋】",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/兔小贝.json",
+      "jar": "./lib/csp_XYQHiker_兔小贝.jar"
+    },
+    {
+      "key": "csp_XYQHiker_兔小贝2",
+      "name": "🐰兔小贝2",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/兔小贝2.json",
+      "jar": "./lib/csp_XYQHiker_兔小贝.jar"
+    },
+{
+      "key": "幼儿启蒙",
+      "name": "🌏幼儿启蒙",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/幼儿启蒙.json",
+      "jar": ""
+    },
+    {
+      "key": "幼小衔接",
+      "name": "🌏幼小衔接",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/幼小衔接.json",
+      "jar": ""
+    },
+    {
+      "key": "益智",
+      "name": "🌏益智┃动画",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "./lib/益智动画.json",
       "jar": ""
     },
     {
