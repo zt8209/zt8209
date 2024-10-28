@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2024-10-10 09:28:00
+#  创建时间：2024-10-28 08:45:31
 #  模版：v2rayse默认模版
-#  节点数量：26
+#  节点数量：13
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,221 +13,130 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"美国+V2CROSS.COM_1","server":"45.142.120.4","port":2096,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403B3611-99bC-43b7-88D7-26ed5d0825A9-3.PageS.DEV","network":"ws","ws-opts":{"path":"/troUbg9Q3QgD0TJRfy?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"trojan","name":"美国+V2CROSS.COM_2","server":"159.112.235.48","port":2083,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403b3611-99bC-43B7-88d7-26ed5d0825A9-3.PAGes.dEv","network":"ws","ws-opts":{"path":"/trZTKk76m0W1AxpNcC?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"ss","name":"美国+华盛顿Cogent通信公司_1","server":"38.75.137.42","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"trojan","name":"美国+CloudFlare节点_1","server":"104.20.18.168","port":443,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403B3611-99Bc-43b7-88D7-26Ed5D0825a9-3.PAGeS.dev","network":"ws","ws-opts":{"path":"/trYEKooUVTeXcm8lnU?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"ss","name":"美国+华盛顿Cogent通信公司_2","server":"38.75.137.42","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"美国+华盛顿Cogent通信公司_3","server":"38.75.137.42","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"trojan","name":"乌克兰+V2CROSS.COM","server":"31.43.179.76","port":443,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403B3611-99BC-43B7-88d7-26ed5D0825a9-3.PAgEs.dEv","network":"ws","ws-opts":{"path":"/trG7Z0qjsy05QMgybQ?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"ss","name":"美国+华盛顿Cogent通信公司_4","server":"38.75.137.42","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"欧盟+V2CROSS.COM_1","server":"45.87.175.154","port":8080,"cipher":"chacha20-ietf-poly1305","password":"gDFRe52uiIvVaxqPlqw439"}
-  - {"type":"trojan","name":"美国+V2CROSS.COM_3","server":"45.131.208.81","port":443,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403B3611-99BC-43b7-88D7-26eD5d0825A9-3.PaGES.dEv","network":"ws","ws-opts":{"path":"/trt3XSTgGNyK4r9U0o?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"ss","name":"欧盟+V2CROSS.COM_2","server":"45.87.175.181","port":8080,"cipher":"chacha20-ietf-poly1305","password":"gDFRe52uiIvVaxqPlqw439"}
-  - {"type":"trojan","name":"美国+V2CROSS.COM_4","server":"199.181.197.143","port":443,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403B3611-99bc-43b7-88D7-26eD5d0825A9-3.PaGeS.deV","network":"ws","ws-opts":{"path":"/trAun92tJzhYilmLtq?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"trojan","name":"美国+V2CROSS.COM_5","server":"159.112.235.48","port":2083,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403b3611-99bC-43B7-88d7-26ed5d0825A9-3.PAGes.dEv","network":"ws","ws-opts":{"path":"/trZTKk76m0W1AxpNcC?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"trojan","name":"巴西圣保罗+CloudFlare节点","server":"188.114.98.6","port":443,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403b3611-99bc-43b7-88d7-26eD5D0825a9-3.pagES.dev","network":"ws","ws-opts":{"path":"/trHMgc3gUnNOpvjx2i?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"trojan","name":"美国+V2CROSS.COM_6","server":"159.112.235.18","port":443,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403B3611-99Bc-43b7-88D7-26ED5d0825A9-3.pAges.DEV","network":"ws","ws-opts":{"path":"/trxmIMD7V6laxACV9c?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"trojan","name":"美国+V2CROSS.COM_7","server":"159.112.235.18","port":443,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403B3611-99Bc-43b7-88D7-26ED5d0825A9-3.pAges.DEV","network":"ws","ws-opts":{"path":"/trxmIMD7V6laxACV9c?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"trojan","name":"美国+CloudFlare节点_2","server":"172.67.135.195","port":443,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403b3611-99bc-43B7-88d7-26ED5d0825A9-3.PagEs.deV","network":"ws","ws-opts":{"path":"/treXr2VnQe0fT2hPwW?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"trojan","name":"美国+CloudFlare节点_3","server":"172.67.130.66","port":443,"password":"trojan","udp":true,"skip-cert-verify":true,"sni":"test-a23.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"test-a23.pages.dev"}}}
-  - {"type":"trojan","name":"美国+CloudFlare节点_4","server":"104.21.7.50","port":443,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403b3611-99bc-43B7-88d7-26ED5d0825A9-3.PagEs.deV","network":"ws","ws-opts":{"path":"/treXr2VnQe0fT2hPwW?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"trojan","name":"美国+CloudFlare节点_5","server":"172.67.180.238","port":443,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403b3611-99BC-43B7-88d7-26eD5D0825A9-3.PAges.DEV","network":"ws","ws-opts":{"path":"/trep2km0aVhJcl29WO?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"trojan","name":"美国+V2CROSS.COM_8","server":"159.112.235.48","port":2083,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403b3611-99bC-43B7-88d7-26ed5d0825A9-3.PAGes.dEv","network":"ws","ws-opts":{"path":"/trZTKk76m0W1AxpNcC?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"trojan","name":"美国+CloudFlare节点_6","server":"104.21.30.195","port":443,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403b3611-99BC-43B7-88D7-26eD5d0825a9-3.PagES.DEv","network":"ws","ws-opts":{"path":"/tr1NNELZR5ONppJJ1m?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"trojan","name":"美国+Amazon数据中心","server":"13.39.62.210","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trojan.burgerip.co.uk","network":"tcp"}
-  - {"type":"trojan","name":"立陶宛+NGS新闻","server":"185.176.24.2","port":443,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV","network":"ws","ws-opts":{"path":"/tr9vfP2lflALkJrNsQ?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"trojan","name":"美国+CloudFlare节点_7","server":"104.21.7.50","port":443,"password":"bpb-trojan","udp":true,"skip-cert-verify":true,"sni":"403b3611-99bc-43B7-88d7-26ED5d0825A9-3.PagEs.deV","network":"ws","ws-opts":{"path":"/treXr2VnQe0fT2hPwW?ed=2560","headers":{"host":"403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev"}}}
-  - {"type":"trojan","name":"韩国+KT电信","server":"59.3.3.161","port":443,"password":"CMLiu","udp":true,"skip-cert-verify":true,"sni":"aliorg.filegear-sg.me","network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"type":"ss","name":"🇺🇸_US_美国_27","server":"69.50.92.99","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"🇺🇸_US_美国_6_1","server":"149.22.95.183","port":443,"cipher":"aes-128-gcm","password":"shadowsocks"}
+  - {"type":"ss","name":"🇺🇸_US_美国_11","server":"23.166.88.221","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"🇺🇸_US_美国_6_2","server":"23.157.40.113","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"ss","name":"🇺🇸_US_美国_16","server":"23.157.40.113","port":5498,"cipher":"aes-256-gcm","password":"lGqs95QkFHo2NV"}
+  - {"type":"ss","name":"🇺🇸_US_美国_14","server":"167.88.61.111","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"🇺🇸_US_美国_12","server":"23.157.40.113","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"ss","name":"🇬🇧_GB_英国","server":"141.98.101.179","port":443,"cipher":"aes-128-gcm","password":"shadowsocks"}
+  - {"type":"ss","name":"🇺🇸_US_美国_21","server":"23.157.40.113","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"🇺🇸_US_美国_3","server":"23.157.40.113","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"🇺🇸_US_美国_28","server":"23.157.40.113","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"🇺🇸_US_美国_32","server":"23.157.40.113","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"北美地区+V2CROSS.COM","server":"23.154.136.247","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_2
-      - 美国+华盛顿Cogent通信公司_1
-      - 美国+CloudFlare节点_1
-      - 美国+华盛顿Cogent通信公司_2
-      - 美国+华盛顿Cogent通信公司_3
-      - 乌克兰+V2CROSS.COM
-      - 美国+华盛顿Cogent通信公司_4
-      - 欧盟+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_3
-      - 欧盟+V2CROSS.COM_2
-      - 美国+V2CROSS.COM_4
-      - 美国+V2CROSS.COM_5
-      - 巴西圣保罗+CloudFlare节点
-      - 美国+V2CROSS.COM_6
-      - 美国+V2CROSS.COM_7
-      - 美国+CloudFlare节点_2
-      - 美国+CloudFlare节点_3
-      - 美国+CloudFlare节点_4
-      - 美国+CloudFlare节点_5
-      - 美国+V2CROSS.COM_8
-      - 美国+CloudFlare节点_6
-      - 美国+Amazon数据中心
-      - 立陶宛+NGS新闻
-      - 美国+CloudFlare节点_7
-      - 韩国+KT电信
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_6_1
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_6_2
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_12
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_32
+      - 北美地区+V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美国+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_2
-      - 美国+华盛顿Cogent通信公司_1
-      - 美国+CloudFlare节点_1
-      - 美国+华盛顿Cogent通信公司_2
-      - 美国+华盛顿Cogent通信公司_3
-      - 乌克兰+V2CROSS.COM
-      - 美国+华盛顿Cogent通信公司_4
-      - 欧盟+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_3
-      - 欧盟+V2CROSS.COM_2
-      - 美国+V2CROSS.COM_4
-      - 美国+V2CROSS.COM_5
-      - 巴西圣保罗+CloudFlare节点
-      - 美国+V2CROSS.COM_6
-      - 美国+V2CROSS.COM_7
-      - 美国+CloudFlare节点_2
-      - 美国+CloudFlare节点_3
-      - 美国+CloudFlare节点_4
-      - 美国+CloudFlare节点_5
-      - 美国+V2CROSS.COM_8
-      - 美国+CloudFlare节点_6
-      - 美国+Amazon数据中心
-      - 立陶宛+NGS新闻
-      - 美国+CloudFlare节点_7
-      - 韩国+KT电信
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_6_1
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_6_2
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_12
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_32
+      - 北美地区+V2CROSS.COM
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_2
-      - 美国+华盛顿Cogent通信公司_1
-      - 美国+CloudFlare节点_1
-      - 美国+华盛顿Cogent通信公司_2
-      - 美国+华盛顿Cogent通信公司_3
-      - 乌克兰+V2CROSS.COM
-      - 美国+华盛顿Cogent通信公司_4
-      - 欧盟+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_3
-      - 欧盟+V2CROSS.COM_2
-      - 美国+V2CROSS.COM_4
-      - 美国+V2CROSS.COM_5
-      - 巴西圣保罗+CloudFlare节点
-      - 美国+V2CROSS.COM_6
-      - 美国+V2CROSS.COM_7
-      - 美国+CloudFlare节点_2
-      - 美国+CloudFlare节点_3
-      - 美国+CloudFlare节点_4
-      - 美国+CloudFlare节点_5
-      - 美国+V2CROSS.COM_8
-      - 美国+CloudFlare节点_6
-      - 美国+Amazon数据中心
-      - 立陶宛+NGS新闻
-      - 美国+CloudFlare节点_7
-      - 韩国+KT电信
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_6_1
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_6_2
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_12
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_32
+      - 北美地区+V2CROSS.COM
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_2
-      - 美国+华盛顿Cogent通信公司_1
-      - 美国+CloudFlare节点_1
-      - 美国+华盛顿Cogent通信公司_2
-      - 美国+华盛顿Cogent通信公司_3
-      - 乌克兰+V2CROSS.COM
-      - 美国+华盛顿Cogent通信公司_4
-      - 欧盟+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_3
-      - 欧盟+V2CROSS.COM_2
-      - 美国+V2CROSS.COM_4
-      - 美国+V2CROSS.COM_5
-      - 巴西圣保罗+CloudFlare节点
-      - 美国+V2CROSS.COM_6
-      - 美国+V2CROSS.COM_7
-      - 美国+CloudFlare节点_2
-      - 美国+CloudFlare节点_3
-      - 美国+CloudFlare节点_4
-      - 美国+CloudFlare节点_5
-      - 美国+V2CROSS.COM_8
-      - 美国+CloudFlare节点_6
-      - 美国+Amazon数据中心
-      - 立陶宛+NGS新闻
-      - 美国+CloudFlare节点_7
-      - 韩国+KT电信
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_6_1
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_6_2
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_12
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_32
+      - 北美地区+V2CROSS.COM
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_2
-      - 美国+华盛顿Cogent通信公司_1
-      - 美国+CloudFlare节点_1
-      - 美国+华盛顿Cogent通信公司_2
-      - 美国+华盛顿Cogent通信公司_3
-      - 乌克兰+V2CROSS.COM
-      - 美国+华盛顿Cogent通信公司_4
-      - 欧盟+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_3
-      - 欧盟+V2CROSS.COM_2
-      - 美国+V2CROSS.COM_4
-      - 美国+V2CROSS.COM_5
-      - 巴西圣保罗+CloudFlare节点
-      - 美国+V2CROSS.COM_6
-      - 美国+V2CROSS.COM_7
-      - 美国+CloudFlare节点_2
-      - 美国+CloudFlare节点_3
-      - 美国+CloudFlare节点_4
-      - 美国+CloudFlare节点_5
-      - 美国+V2CROSS.COM_8
-      - 美国+CloudFlare节点_6
-      - 美国+Amazon数据中心
-      - 立陶宛+NGS新闻
-      - 美国+CloudFlare节点_7
-      - 韩国+KT电信
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_6_1
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_6_2
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_12
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_32
+      - 北美地区+V2CROSS.COM
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_2
-      - 美国+华盛顿Cogent通信公司_1
-      - 美国+CloudFlare节点_1
-      - 美国+华盛顿Cogent通信公司_2
-      - 美国+华盛顿Cogent通信公司_3
-      - 乌克兰+V2CROSS.COM
-      - 美国+华盛顿Cogent通信公司_4
-      - 欧盟+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_3
-      - 欧盟+V2CROSS.COM_2
-      - 美国+V2CROSS.COM_4
-      - 美国+V2CROSS.COM_5
-      - 巴西圣保罗+CloudFlare节点
-      - 美国+V2CROSS.COM_6
-      - 美国+V2CROSS.COM_7
-      - 美国+CloudFlare节点_2
-      - 美国+CloudFlare节点_3
-      - 美国+CloudFlare节点_4
-      - 美国+CloudFlare节点_5
-      - 美国+V2CROSS.COM_8
-      - 美国+CloudFlare节点_6
-      - 美国+Amazon数据中心
-      - 立陶宛+NGS新闻
-      - 美国+CloudFlare节点_7
-      - 韩国+KT电信
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_6_1
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_6_2
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_12
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_32
+      - 北美地区+V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -250,32 +159,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_2
-      - 美国+华盛顿Cogent通信公司_1
-      - 美国+CloudFlare节点_1
-      - 美国+华盛顿Cogent通信公司_2
-      - 美国+华盛顿Cogent通信公司_3
-      - 乌克兰+V2CROSS.COM
-      - 美国+华盛顿Cogent通信公司_4
-      - 欧盟+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_3
-      - 欧盟+V2CROSS.COM_2
-      - 美国+V2CROSS.COM_4
-      - 美国+V2CROSS.COM_5
-      - 巴西圣保罗+CloudFlare节点
-      - 美国+V2CROSS.COM_6
-      - 美国+V2CROSS.COM_7
-      - 美国+CloudFlare节点_2
-      - 美国+CloudFlare节点_3
-      - 美国+CloudFlare节点_4
-      - 美国+CloudFlare节点_5
-      - 美国+V2CROSS.COM_8
-      - 美国+CloudFlare节点_6
-      - 美国+Amazon数据中心
-      - 立陶宛+NGS新闻
-      - 美国+CloudFlare节点_7
-      - 韩国+KT电信
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_6_1
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_6_2
+      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_14
+      - 🇺🇸_US_美国_12
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_32
+      - 北美地区+V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
