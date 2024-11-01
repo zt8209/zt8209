@@ -1,1 +1,0 @@
-clan://localhost/Pictures/Child/srpd.json
