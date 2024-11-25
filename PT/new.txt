@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2024-11-25 13:19:14
+#  创建时间：2024-11-25 15:59:14
 #  模版：v2rayse默认模版
-#  节点数量：35
+#  节点数量：8
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,284 +13,95 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vless","name":"中国-香港-004_1","server":"212.192.13.51","port":7328,"uuid":"600b472f-3e43-43a0-8815-a890a607891c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"中国-香港-004_2","server":"212.192.13.51","port":7328,"uuid":"4ead13d1-f307-49b0-a828-a205a80ab570","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"中国-香港-002_1","server":"45.144.174.75","port":8080,"uuid":"600b472f-3e43-43a0-8815-a890a607891c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"中国-香港-002_2","server":"45.144.174.75","port":8080,"uuid":"4ead13d1-f307-49b0-a828-a205a80ab570","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"中国-香港-001_1","server":"212.192.12.97","port":3732,"uuid":"600b472f-3e43-43a0-8815-a890a607891c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"中国-香港-001_2","server":"212.192.12.97","port":3732,"uuid":"4ead13d1-f307-49b0-a828-a205a80ab570","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"英国-伦敦-001_1","server":"5.39.254.34","port":3732,"uuid":"600b472f-3e43-43a0-8815-a890a607891c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"英国-伦敦-001_2","server":"5.39.254.34","port":3732,"uuid":"4ead13d1-f307-49b0-a828-a205a80ab570","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"新加坡01|流媒体","server":"sg001.421421.xyz","port":20230,"uuid":"90e7b2f3-fb61-4fd7-959f-176e9a51d8d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"api.push.apple.com","tls":false,"udp":true}
-  - {"type":"vless","name":"新加坡-001_1","server":"103.136.68.253","port":3732,"uuid":"600b472f-3e43-43a0-8815-a890a607891c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"新加坡-001_2","server":"103.136.68.253","port":3732,"uuid":"4ead13d1-f307-49b0-a828-a205a80ab570","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"套餐到期：长期有效","server":"sg001.421421.xyz","port":20230,"uuid":"90e7b2f3-fb61-4fd7-959f-176e9a51d8d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"api.push.apple.com","tls":false,"udp":true}
-  - {"type":"vless","name":"套餐到期：2024-12-23_1","server":"212.192.13.51","port":7328,"uuid":"600b472f-3e43-43a0-8815-a890a607891c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"套餐到期：2024-12-23_2","server":"212.192.13.51","port":7328,"uuid":"4ead13d1-f307-49b0-a828-a205a80ab570","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"剩余流量：987.98+GB","server":"212.192.13.51","port":7328,"uuid":"4ead13d1-f307-49b0-a828-a205a80ab570","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"剩余流量：985.21+GB","server":"212.192.13.51","port":7328,"uuid":"600b472f-3e43-43a0-8815-a890a607891c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"剩余流量：951.61GB","server":"sg001.421421.xyz","port":20230,"uuid":"90e7b2f3-fb61-4fd7-959f-176e9a51d8d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"api.push.apple.com","tls":false,"udp":true}
-  - {"type":"vless","name":"美国-纽约-001_1","server":"207.90.237.199","port":80,"uuid":"600b472f-3e43-43a0-8815-a890a607891c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"美国-纽约-001_2","server":"207.90.237.199","port":80,"uuid":"4ead13d1-f307-49b0-a828-a205a80ab570","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"距离下次重置剩余：6+天_1","server":"212.192.13.51","port":7328,"uuid":"600b472f-3e43-43a0-8815-a890a607891c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"距离下次重置剩余：6+天_2","server":"212.192.13.51","port":7328,"uuid":"4ead13d1-f307-49b0-a828-a205a80ab570","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"免费小火箭","server":"212.192.13.51","port":7328,"uuid":"600b472f-3e43-43a0-8815-a890a607891c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"过滤掉11条线路","server":"212.192.13.51","port":7328,"uuid":"4ead13d1-f307-49b0-a828-a205a80ab570","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"俄罗斯-莫斯科-001_1","server":"176.32.35.194","port":9406,"uuid":"600b472f-3e43-43a0-8815-a890a607891c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"俄罗斯-莫斯科-001_2","server":"176.32.35.194","port":9406,"uuid":"4ead13d1-f307-49b0-a828-a205a80ab570","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vmess","name":"🇺🇸美国-2","ws-opts":{"path":"/","headers":{"host":"us02.1f0ad5d8-a4f8-7383.cfd"}},"server":"yUE73.c6tu5uwk9.buzz","port":"80","uuid":"377bf036-b6b2-4867-bf3a-dbeb24a90326","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇸🇬新加坡-1","ws-opts":{"path":"/","headers":{"host":"sg01.1f0ad5d8-a4f8-7383.cfd"}},"server":"kz3bw.c6tu5uwk9.buzz","port":"80","uuid":"377bf036-b6b2-4867-bf3a-dbeb24a90326","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇰🇷韩国-3","ws-opts":{"path":"/","headers":{"host":"kr03.1f0ad5d8-a4f8-7383.cfd"}},"server":"strw4.c6tu5uwk9.buzz","port":"80","uuid":"377bf036-b6b2-4867-bf3a-dbeb24a90326","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇰🇷韩国-1","ws-opts":{"path":"/","headers":{"host":"kr01.1f0ad5d8-a4f8-7383.cfd"}},"server":"bfdo3.c6tu5uwk9.buzz","port":"80","uuid":"377bf036-b6b2-4867-bf3a-dbeb24a90326","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇯🇵日本-1","ws-opts":{"path":"/","headers":{"host":"jp01.1f0ad5d8-a4f8-7383.cfd"}},"server":"strw4.c6tu5uwk9.buzz","port":"80","uuid":"377bf036-b6b2-4867-bf3a-dbeb24a90326","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇩🇪德国-4","ws-opts":{"path":"/","headers":{"host":"de04.1f0ad5d8-a4f8-7383.cfd"}},"server":"strw4.c6tu5uwk9.buzz","port":"80","uuid":"377bf036-b6b2-4867-bf3a-dbeb24a90326","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇩🇪德国-1","ws-opts":{"path":"/","headers":{"host":"de01.1f0ad5d8-a4f8-7383.cfd"}},"server":"5g5ac.c6tu5uwk9.buzz","port":"80","uuid":"377bf036-b6b2-4867-bf3a-dbeb24a90326","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"节点全红检查是否流量已用完","ws-opts":{"path":"/","headers":{"host":"us02.1f0ad5d8-a4f8-7383.cfd"}},"server":"yUE73.c6tu5uwk9.buzz","port":"80","uuid":"377bf036-b6b2-4867-bf3a-dbeb24a90326","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道https://t.me/dns68","ws-opts":{"path":"/","headers":{"host":"jp01.1f0ad5d8-a4f8-7383.cfd"}},"server":"YgdG7.c6tu5uwk9.buzz","port":"80","uuid":"377bf036-b6b2-4867-bf3a-dbeb24a90326","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"剩余流量：3073.66GB","ws-opts":{"path":"/","headers":{"host":"sg02.1f0ad5d8-a4f8-7383.cfd"}},"server":"kz3bw.c6tu5uwk9.buzz","port":"80","uuid":"377bf036-b6b2-4867-bf3a-dbeb24a90326","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"美国+华盛顿州","server":"205.134.180.150","port":443,"cipher":"chacha20-ietf-poly1305","password":"5cp9Z3iWnJZ2"}
+  - {"type":"ss","name":"🇺🇸_US_美国_6","server":"142.202.49.119","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"ss","name":"🇺🇸_US_美国_3","server":"142.202.49.119","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"🇺🇸_US_美国_11","server":"142.202.49.119","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"vmess","name":"俄罗斯V2CROSS.COM","http-opts":{"path":["/"],"headers":{"Host":["f41.maryam1500.top"]}},"server":"147.45.51.16","port":"2098","uuid":"83876222-64a4-4912-aa18-b7d9d34959de","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"ss","name":"加拿大+V2CROSS.COM","server":"142.202.49.119","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"🇺🇸_US_美国_13","server":"142.202.49.119","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"🇺🇸_US_美国_7","server":"142.202.49.119","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 中国-香港-004_1
-      - 中国-香港-004_2
-      - 中国-香港-002_1
-      - 中国-香港-002_2
-      - 中国-香港-001_1
-      - 中国-香港-001_2
-      - 英国-伦敦-001_1
-      - 英国-伦敦-001_2
-      - 新加坡01|流媒体
-      - 新加坡-001_1
-      - 新加坡-001_2
-      - 套餐到期：长期有效
-      - 套餐到期：2024-12-23_1
-      - 套餐到期：2024-12-23_2
-      - 剩余流量：987.98+GB
-      - 剩余流量：985.21+GB
-      - 剩余流量：951.61GB
-      - 美国-纽约-001_1
-      - 美国-纽约-001_2
-      - 距离下次重置剩余：6+天_1
-      - 距离下次重置剩余：6+天_2
-      - 免费小火箭
-      - 过滤掉11条线路
-      - 俄罗斯-莫斯科-001_1
-      - 俄罗斯-莫斯科-001_2
-      - 🇺🇸美国-2
-      - 🇸🇬新加坡-1
-      - 🇰🇷韩国-3
-      - 🇰🇷韩国-1
-      - 🇯🇵日本-1
-      - 🇩🇪德国-4
-      - 🇩🇪德国-1
-      - 节点全红检查是否流量已用完
-      - TG频道https://t.me/dns68
-      - 剩余流量：3073.66GB
+      - 美国+华盛顿州
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_11
+      - 俄罗斯V2CROSS.COM
+      - 加拿大+V2CROSS.COM
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 中国-香港-004_1
-      - 中国-香港-004_2
-      - 中国-香港-002_1
-      - 中国-香港-002_2
-      - 中国-香港-001_1
-      - 中国-香港-001_2
-      - 英国-伦敦-001_1
-      - 英国-伦敦-001_2
-      - 新加坡01|流媒体
-      - 新加坡-001_1
-      - 新加坡-001_2
-      - 套餐到期：长期有效
-      - 套餐到期：2024-12-23_1
-      - 套餐到期：2024-12-23_2
-      - 剩余流量：987.98+GB
-      - 剩余流量：985.21+GB
-      - 剩余流量：951.61GB
-      - 美国-纽约-001_1
-      - 美国-纽约-001_2
-      - 距离下次重置剩余：6+天_1
-      - 距离下次重置剩余：6+天_2
-      - 免费小火箭
-      - 过滤掉11条线路
-      - 俄罗斯-莫斯科-001_1
-      - 俄罗斯-莫斯科-001_2
-      - 🇺🇸美国-2
-      - 🇸🇬新加坡-1
-      - 🇰🇷韩国-3
-      - 🇰🇷韩国-1
-      - 🇯🇵日本-1
-      - 🇩🇪德国-4
-      - 🇩🇪德国-1
-      - 节点全红检查是否流量已用完
-      - TG频道https://t.me/dns68
-      - 剩余流量：3073.66GB
+      - 美国+华盛顿州
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_11
+      - 俄罗斯V2CROSS.COM
+      - 加拿大+V2CROSS.COM
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_7
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国-香港-004_1
-      - 中国-香港-004_2
-      - 中国-香港-002_1
-      - 中国-香港-002_2
-      - 中国-香港-001_1
-      - 中国-香港-001_2
-      - 英国-伦敦-001_1
-      - 英国-伦敦-001_2
-      - 新加坡01|流媒体
-      - 新加坡-001_1
-      - 新加坡-001_2
-      - 套餐到期：长期有效
-      - 套餐到期：2024-12-23_1
-      - 套餐到期：2024-12-23_2
-      - 剩余流量：987.98+GB
-      - 剩余流量：985.21+GB
-      - 剩余流量：951.61GB
-      - 美国-纽约-001_1
-      - 美国-纽约-001_2
-      - 距离下次重置剩余：6+天_1
-      - 距离下次重置剩余：6+天_2
-      - 免费小火箭
-      - 过滤掉11条线路
-      - 俄罗斯-莫斯科-001_1
-      - 俄罗斯-莫斯科-001_2
-      - 🇺🇸美国-2
-      - 🇸🇬新加坡-1
-      - 🇰🇷韩国-3
-      - 🇰🇷韩国-1
-      - 🇯🇵日本-1
-      - 🇩🇪德国-4
-      - 🇩🇪德国-1
-      - 节点全红检查是否流量已用完
-      - TG频道https://t.me/dns68
-      - 剩余流量：3073.66GB
+      - 美国+华盛顿州
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_11
+      - 俄罗斯V2CROSS.COM
+      - 加拿大+V2CROSS.COM
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 中国-香港-004_1
-      - 中国-香港-004_2
-      - 中国-香港-002_1
-      - 中国-香港-002_2
-      - 中国-香港-001_1
-      - 中国-香港-001_2
-      - 英国-伦敦-001_1
-      - 英国-伦敦-001_2
-      - 新加坡01|流媒体
-      - 新加坡-001_1
-      - 新加坡-001_2
-      - 套餐到期：长期有效
-      - 套餐到期：2024-12-23_1
-      - 套餐到期：2024-12-23_2
-      - 剩余流量：987.98+GB
-      - 剩余流量：985.21+GB
-      - 剩余流量：951.61GB
-      - 美国-纽约-001_1
-      - 美国-纽约-001_2
-      - 距离下次重置剩余：6+天_1
-      - 距离下次重置剩余：6+天_2
-      - 免费小火箭
-      - 过滤掉11条线路
-      - 俄罗斯-莫斯科-001_1
-      - 俄罗斯-莫斯科-001_2
-      - 🇺🇸美国-2
-      - 🇸🇬新加坡-1
-      - 🇰🇷韩国-3
-      - 🇰🇷韩国-1
-      - 🇯🇵日本-1
-      - 🇩🇪德国-4
-      - 🇩🇪德国-1
-      - 节点全红检查是否流量已用完
-      - TG频道https://t.me/dns68
-      - 剩余流量：3073.66GB
+      - 美国+华盛顿州
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_11
+      - 俄罗斯V2CROSS.COM
+      - 加拿大+V2CROSS.COM
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_7
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 中国-香港-004_1
-      - 中国-香港-004_2
-      - 中国-香港-002_1
-      - 中国-香港-002_2
-      - 中国-香港-001_1
-      - 中国-香港-001_2
-      - 英国-伦敦-001_1
-      - 英国-伦敦-001_2
-      - 新加坡01|流媒体
-      - 新加坡-001_1
-      - 新加坡-001_2
-      - 套餐到期：长期有效
-      - 套餐到期：2024-12-23_1
-      - 套餐到期：2024-12-23_2
-      - 剩余流量：987.98+GB
-      - 剩余流量：985.21+GB
-      - 剩余流量：951.61GB
-      - 美国-纽约-001_1
-      - 美国-纽约-001_2
-      - 距离下次重置剩余：6+天_1
-      - 距离下次重置剩余：6+天_2
-      - 免费小火箭
-      - 过滤掉11条线路
-      - 俄罗斯-莫斯科-001_1
-      - 俄罗斯-莫斯科-001_2
-      - 🇺🇸美国-2
-      - 🇸🇬新加坡-1
-      - 🇰🇷韩国-3
-      - 🇰🇷韩国-1
-      - 🇯🇵日本-1
-      - 🇩🇪德国-4
-      - 🇩🇪德国-1
-      - 节点全红检查是否流量已用完
-      - TG频道https://t.me/dns68
-      - 剩余流量：3073.66GB
+      - 美国+华盛顿州
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_11
+      - 俄罗斯V2CROSS.COM
+      - 加拿大+V2CROSS.COM
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 中国-香港-004_1
-      - 中国-香港-004_2
-      - 中国-香港-002_1
-      - 中国-香港-002_2
-      - 中国-香港-001_1
-      - 中国-香港-001_2
-      - 英国-伦敦-001_1
-      - 英国-伦敦-001_2
-      - 新加坡01|流媒体
-      - 新加坡-001_1
-      - 新加坡-001_2
-      - 套餐到期：长期有效
-      - 套餐到期：2024-12-23_1
-      - 套餐到期：2024-12-23_2
-      - 剩余流量：987.98+GB
-      - 剩余流量：985.21+GB
-      - 剩余流量：951.61GB
-      - 美国-纽约-001_1
-      - 美国-纽约-001_2
-      - 距离下次重置剩余：6+天_1
-      - 距离下次重置剩余：6+天_2
-      - 免费小火箭
-      - 过滤掉11条线路
-      - 俄罗斯-莫斯科-001_1
-      - 俄罗斯-莫斯科-001_2
-      - 🇺🇸美国-2
-      - 🇸🇬新加坡-1
-      - 🇰🇷韩国-3
-      - 🇰🇷韩国-1
-      - 🇯🇵日本-1
-      - 🇩🇪德国-4
-      - 🇩🇪德国-1
-      - 节点全红检查是否流量已用完
-      - TG频道https://t.me/dns68
-      - 剩余流量：3073.66GB
+      - 美国+华盛顿州
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_11
+      - 俄罗斯V2CROSS.COM
+      - 加拿大+V2CROSS.COM
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -313,41 +124,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国-香港-004_1
-      - 中国-香港-004_2
-      - 中国-香港-002_1
-      - 中国-香港-002_2
-      - 中国-香港-001_1
-      - 中国-香港-001_2
-      - 英国-伦敦-001_1
-      - 英国-伦敦-001_2
-      - 新加坡01|流媒体
-      - 新加坡-001_1
-      - 新加坡-001_2
-      - 套餐到期：长期有效
-      - 套餐到期：2024-12-23_1
-      - 套餐到期：2024-12-23_2
-      - 剩余流量：987.98+GB
-      - 剩余流量：985.21+GB
-      - 剩余流量：951.61GB
-      - 美国-纽约-001_1
-      - 美国-纽约-001_2
-      - 距离下次重置剩余：6+天_1
-      - 距离下次重置剩余：6+天_2
-      - 免费小火箭
-      - 过滤掉11条线路
-      - 俄罗斯-莫斯科-001_1
-      - 俄罗斯-莫斯科-001_2
-      - 🇺🇸美国-2
-      - 🇸🇬新加坡-1
-      - 🇰🇷韩国-3
-      - 🇰🇷韩国-1
-      - 🇯🇵日本-1
-      - 🇩🇪德国-4
-      - 🇩🇪德国-1
-      - 节点全红检查是否流量已用完
-      - TG频道https://t.me/dns68
-      - 剩余流量：3073.66GB
+      - 美国+华盛顿州
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_11
+      - 俄罗斯V2CROSS.COM
+      - 加拿大+V2CROSS.COM
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_7
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
