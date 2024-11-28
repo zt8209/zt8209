@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2024-10-18 09:04:12
+#  创建时间：2024-11-28 11:39:17
 #  模版：v2rayse默认模版
-#  节点数量：13
+#  节点数量：20
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,130 +13,179 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"🇺🇸_US_美国_13","server":"69.50.92.99","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"🇺🇸_US_美国_14","server":"139.64.165.230","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"英国(yudou66.com玉豆免费节点)","server":"212.102.53.198","port":443,"cipher":"aes-128-gcm","password":"shadowsocks"}
-  - {"type":"ss","name":"欧盟+V2CROSS.COM","server":"45.87.175.171","port":8080,"cipher":"chacha20-ietf-poly1305","password":"gDFRe52uiIvVaxqPlqw439"}
-  - {"type":"ss","name":"北美地区+v2rayfree.eu.org","server":"23.150.248.29","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"美国+V2CROSS.COM_1","server":"69.50.92.99","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"俄罗斯+v2rayfree.eu.org","server":"176.124.199.255","port":30252,"cipher":"chacha20-ietf-poly1305","password":"Zgg@X0m515"}
-  - {"type":"ss","name":"美国+v2rayfree.eu.org_1","server":"69.50.95.179","port":5498,"cipher":"aes-256-gcm","password":"lGqs95QkFHo2NV"}
-  - {"type":"ss","name":"美国+v2rayfree.eu.org_2","server":"69.50.95.179","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"type":"ss","name":"美国+V2CROSS.COM_2","server":"69.50.95.218","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"美国+V2CROSS.COM_3","server":"45.158.171.44","port":8080,"cipher":"chacha20-ietf-poly1305","password":"a8bt9fY0QsLS6eLnXUe0Ym"}
-  - {"type":"ss","name":"美国+V2CROSS.COM_4","server":"69.50.93.113","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"美国+v2rayfree.eu.org_3","server":"69.50.95.218","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"trojan","name":"13,14|日本|@ripaojiedian","server":"36.151.192.203","port":44673,"password":"QwwHvrnN","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"vless","name":"15|US_speednode_0058","server":"xn--b6gac.eu.org","port":8080,"uuid":"464d644c-9c10-4c02-9117-4c75b0c347cd","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"wwwvisacomsg.mshcgb8q.workers.dev","ws-opts":{"path":"/","headers":{"host":"wwwvisacomsg.mshcgb8q.workers.dev"}}}
+  - {"type":"vmess","name":"13,14|美国|@ripaojiedian","ws-opts":{"path":"/","headers":{"host":"us1.849yht89w.jiesk4pdqcqjo16j.xyz"}},"server":"170.114.45.53","port":"80","uuid":"3db2d115-1db9-457d-850f-818b73228f67","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"15|US_speednode_0035","server":"199.232.7.18","port":443,"uuid":"14687d04-f9e5-541b-a330-64704b7dcd35","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ELIV2RAY-JOIN.COM","ws-opts":{"path":"/","headers":{"host":"ELIV2RAY-JOIN.COM"}}}
+  - {"type":"vmess","name":"13,14|香港7|@ripaojiedian","ws-opts":{"path":"/","headers":{"host":"3fe454755ea98eaa00f870f7fa2990c7.mobgslb.tbcache.com"}},"server":"m.cnmjin.net","port":"16622","uuid":"1ba48a0e-af2e-45fb-9e15-2b2d4134657c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"15|GB_speednode_0019","server":"217.163.76.107","port":8443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"edgood.889876.xyz","ws-opts":{"path":"/","headers":{"host":"edgood.889876.xyz"}}}
+  - {"type":"trojan","name":"13,14|香港2|@ripaojiedian","server":"36.151.192.203","port":18682,"password":"QwwHvrnN","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"ss","name":"0|--2","server":"51.195.220.179","port":1080,"cipher":"chacha20-ietf-poly1305","password":"vntxqHhPINXu5Ag6876fXO"}
+  - {"type":"ss","name":"13|🇯🇵日本3|@ripaojiedian","server":"61.172.235.22","port":11002,"cipher":"chacha20-ietf-poly1305","password":"6ed66cb3-734d-4cc9-918f-88b3f9e28249"}
+  - {"type":"vmess","name":"美国CloudFlare节点_1","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip18.6929198.xyz"}},"server":"190.93.245.168","port":"2082","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国CloudFlare节点_2","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}},"server":"104.26.0.83","port":"8880","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国CloudFlare节点_3","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}},"server":"104.26.0.213","port":"8880","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"0|--5","server":"193.124.22.253","port":33068,"cipher":"chacha20-ietf-poly1305","password":"3MgIhqwp4pjM8SKwixNkYZ"}
+  - {"type":"ss","name":"欧盟+V2CROSS.COM","server":"45.87.175.157","port":8080,"cipher":"chacha20-ietf-poly1305","password":"1RWwXhwfAB5gAEozU4G2Pg"}
+  - {"type":"vmess","name":"美国CloudFlare节点_4","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}},"server":"104.21.238.250","port":"8880","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"美国+V2CROSS.COM_1","server":"69.50.95.53","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"vmess","name":"美国CloudFlare节点_5","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}},"server":"104.21.238.10","port":"8880","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"美国+V2CROSS.COM_2","server":"69.50.95.53","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"trojan","name":"13,14|香港|@ripaojiedian","server":"36.151.192.201","port":34185,"password":"QwwHvrnN","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"vless","name":"15|US_speednode_0043","server":"199.232.3.80","port":443,"uuid":"9be0950e-a7b3-5e38-83b4-217ccc4488a0","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ELIV2RAY-JOIN.COM","ws-opts":{"path":"/","headers":{"host":"ELIV2RAY-JOIN.COM"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 英国(yudou66.com玉豆免费节点)
+      - 13,14|日本|@ripaojiedian
+      - 15|US_speednode_0058
+      - 13,14|美国|@ripaojiedian
+      - 15|US_speednode_0035
+      - 13,14|香港7|@ripaojiedian
+      - 15|GB_speednode_0019
+      - 13,14|香港2|@ripaojiedian
+      - 0|--2
+      - 13|🇯🇵日本3|@ripaojiedian
+      - 美国CloudFlare节点_1
+      - 美国CloudFlare节点_2
+      - 美国CloudFlare节点_3
+      - 0|--5
       - 欧盟+V2CROSS.COM
-      - 北美地区+v2rayfree.eu.org
+      - 美国CloudFlare节点_4
       - 美国+V2CROSS.COM_1
-      - 俄罗斯+v2rayfree.eu.org
-      - 美国+v2rayfree.eu.org_1
-      - 美国+v2rayfree.eu.org_2
+      - 美国CloudFlare节点_5
       - 美国+V2CROSS.COM_2
-      - 美国+V2CROSS.COM_3
-      - 美国+V2CROSS.COM_4
-      - 美国+v2rayfree.eu.org_3
+      - 13,14|香港|@ripaojiedian
+      - 15|US_speednode_0043
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 英国(yudou66.com玉豆免费节点)
+      - 13,14|日本|@ripaojiedian
+      - 15|US_speednode_0058
+      - 13,14|美国|@ripaojiedian
+      - 15|US_speednode_0035
+      - 13,14|香港7|@ripaojiedian
+      - 15|GB_speednode_0019
+      - 13,14|香港2|@ripaojiedian
+      - 0|--2
+      - 13|🇯🇵日本3|@ripaojiedian
+      - 美国CloudFlare节点_1
+      - 美国CloudFlare节点_2
+      - 美国CloudFlare节点_3
+      - 0|--5
       - 欧盟+V2CROSS.COM
-      - 北美地区+v2rayfree.eu.org
+      - 美国CloudFlare节点_4
       - 美国+V2CROSS.COM_1
-      - 俄罗斯+v2rayfree.eu.org
-      - 美国+v2rayfree.eu.org_1
-      - 美国+v2rayfree.eu.org_2
+      - 美国CloudFlare节点_5
       - 美国+V2CROSS.COM_2
-      - 美国+V2CROSS.COM_3
-      - 美国+V2CROSS.COM_4
-      - 美国+v2rayfree.eu.org_3
+      - 13,14|香港|@ripaojiedian
+      - 15|US_speednode_0043
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 英国(yudou66.com玉豆免费节点)
+      - 13,14|日本|@ripaojiedian
+      - 15|US_speednode_0058
+      - 13,14|美国|@ripaojiedian
+      - 15|US_speednode_0035
+      - 13,14|香港7|@ripaojiedian
+      - 15|GB_speednode_0019
+      - 13,14|香港2|@ripaojiedian
+      - 0|--2
+      - 13|🇯🇵日本3|@ripaojiedian
+      - 美国CloudFlare节点_1
+      - 美国CloudFlare节点_2
+      - 美国CloudFlare节点_3
+      - 0|--5
       - 欧盟+V2CROSS.COM
-      - 北美地区+v2rayfree.eu.org
+      - 美国CloudFlare节点_4
       - 美国+V2CROSS.COM_1
-      - 俄罗斯+v2rayfree.eu.org
-      - 美国+v2rayfree.eu.org_1
-      - 美国+v2rayfree.eu.org_2
+      - 美国CloudFlare节点_5
       - 美国+V2CROSS.COM_2
-      - 美国+V2CROSS.COM_3
-      - 美国+V2CROSS.COM_4
-      - 美国+v2rayfree.eu.org_3
+      - 13,14|香港|@ripaojiedian
+      - 15|US_speednode_0043
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 英国(yudou66.com玉豆免费节点)
+      - 13,14|日本|@ripaojiedian
+      - 15|US_speednode_0058
+      - 13,14|美国|@ripaojiedian
+      - 15|US_speednode_0035
+      - 13,14|香港7|@ripaojiedian
+      - 15|GB_speednode_0019
+      - 13,14|香港2|@ripaojiedian
+      - 0|--2
+      - 13|🇯🇵日本3|@ripaojiedian
+      - 美国CloudFlare节点_1
+      - 美国CloudFlare节点_2
+      - 美国CloudFlare节点_3
+      - 0|--5
       - 欧盟+V2CROSS.COM
-      - 北美地区+v2rayfree.eu.org
+      - 美国CloudFlare节点_4
       - 美国+V2CROSS.COM_1
-      - 俄罗斯+v2rayfree.eu.org
-      - 美国+v2rayfree.eu.org_1
-      - 美国+v2rayfree.eu.org_2
+      - 美国CloudFlare节点_5
       - 美国+V2CROSS.COM_2
-      - 美国+V2CROSS.COM_3
-      - 美国+V2CROSS.COM_4
-      - 美国+v2rayfree.eu.org_3
+      - 13,14|香港|@ripaojiedian
+      - 15|US_speednode_0043
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 英国(yudou66.com玉豆免费节点)
+      - 13,14|日本|@ripaojiedian
+      - 15|US_speednode_0058
+      - 13,14|美国|@ripaojiedian
+      - 15|US_speednode_0035
+      - 13,14|香港7|@ripaojiedian
+      - 15|GB_speednode_0019
+      - 13,14|香港2|@ripaojiedian
+      - 0|--2
+      - 13|🇯🇵日本3|@ripaojiedian
+      - 美国CloudFlare节点_1
+      - 美国CloudFlare节点_2
+      - 美国CloudFlare节点_3
+      - 0|--5
       - 欧盟+V2CROSS.COM
-      - 北美地区+v2rayfree.eu.org
+      - 美国CloudFlare节点_4
       - 美国+V2CROSS.COM_1
-      - 俄罗斯+v2rayfree.eu.org
-      - 美国+v2rayfree.eu.org_1
-      - 美国+v2rayfree.eu.org_2
+      - 美国CloudFlare节点_5
       - 美国+V2CROSS.COM_2
-      - 美国+V2CROSS.COM_3
-      - 美国+V2CROSS.COM_4
-      - 美国+v2rayfree.eu.org_3
+      - 13,14|香港|@ripaojiedian
+      - 15|US_speednode_0043
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 英国(yudou66.com玉豆免费节点)
+      - 13,14|日本|@ripaojiedian
+      - 15|US_speednode_0058
+      - 13,14|美国|@ripaojiedian
+      - 15|US_speednode_0035
+      - 13,14|香港7|@ripaojiedian
+      - 15|GB_speednode_0019
+      - 13,14|香港2|@ripaojiedian
+      - 0|--2
+      - 13|🇯🇵日本3|@ripaojiedian
+      - 美国CloudFlare节点_1
+      - 美国CloudFlare节点_2
+      - 美国CloudFlare节点_3
+      - 0|--5
       - 欧盟+V2CROSS.COM
-      - 北美地区+v2rayfree.eu.org
+      - 美国CloudFlare节点_4
       - 美国+V2CROSS.COM_1
-      - 俄罗斯+v2rayfree.eu.org
-      - 美国+v2rayfree.eu.org_1
-      - 美国+v2rayfree.eu.org_2
+      - 美国CloudFlare节点_5
       - 美国+V2CROSS.COM_2
-      - 美国+V2CROSS.COM_3
-      - 美国+V2CROSS.COM_4
-      - 美国+v2rayfree.eu.org_3
+      - 13,14|香港|@ripaojiedian
+      - 15|US_speednode_0043
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -159,19 +208,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 英国(yudou66.com玉豆免费节点)
+      - 13,14|日本|@ripaojiedian
+      - 15|US_speednode_0058
+      - 13,14|美国|@ripaojiedian
+      - 15|US_speednode_0035
+      - 13,14|香港7|@ripaojiedian
+      - 15|GB_speednode_0019
+      - 13,14|香港2|@ripaojiedian
+      - 0|--2
+      - 13|🇯🇵日本3|@ripaojiedian
+      - 美国CloudFlare节点_1
+      - 美国CloudFlare节点_2
+      - 美国CloudFlare节点_3
+      - 0|--5
       - 欧盟+V2CROSS.COM
-      - 北美地区+v2rayfree.eu.org
+      - 美国CloudFlare节点_4
       - 美国+V2CROSS.COM_1
-      - 俄罗斯+v2rayfree.eu.org
-      - 美国+v2rayfree.eu.org_1
-      - 美国+v2rayfree.eu.org_2
+      - 美国CloudFlare节点_5
       - 美国+V2CROSS.COM_2
-      - 美国+V2CROSS.COM_3
-      - 美国+V2CROSS.COM_4
-      - 美国+v2rayfree.eu.org_3
+      - 13,14|香港|@ripaojiedian
+      - 15|US_speednode_0043
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
