@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2024-11-06 11:49:29
+#  创建时间：2024-11-28 09:48:44
 #  模版：v2rayse默认模版
-#  节点数量：16
+#  节点数量：2
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,151 +13,53 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"美国+V2CROSS.COM","server":"156.146.38.168","port":443,"cipher":"aes-128-gcm","password":"shadowsocks"}
-  - {"type":"vmess","name":"丹麦V2CROSS.COM","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"open.alipay.ovh"}},"server":"195.85.59.161","port":"80","uuid":"a94171be-b387-4f02-a5ef-a1b4b7a26c04","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"🇮🇷_IR_伊朗","server":"95.38.210.233","port":52460,"uuid":"f67ed071-ff3e-492b-c46a-efb7f2c7b27c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"ss","name":"🇺🇸_US_美国_1","server":"156.146.38.168","port":443,"cipher":"aes-128-gcm","password":"shadowsocks"}
-  - {"type":"ss","name":"🇺🇸_US_美国_5","server":"54.37.12.219","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"🇨🇦_CA_加拿大->🇪🇸_ES_西班牙","server":"64.74.163.130","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
-  - {"type":"ss","name":"🇬🇧_GB_英国","server":"141.98.101.178","port":443,"cipher":"aes-128-gcm","password":"shadowsocks"}
-  - {"type":"ss","name":"🇩🇪_DE_德国->🇺🇸_US_美国","server":"45.87.175.154","port":8080,"cipher":"chacha20-ietf-poly1305","password":"cvII85TrW6n0OGyfpHVS1u"}
-  - {"type":"vless","name":"荷兰(yudou66.com玉豆免费节点)","server":"188.42.145.159","port":443,"uuid":"54ef4ecf-ff37-436a-be13-95c8a8a1114d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"VIrgiNiavPn-nL.pagEs.dEv","ws-opts":{"path":"/security=tls","headers":{"host":"VIrgiNiavPn-nL.pagEs.dEv"}}}
-  - {"type":"ss","name":"美国(yudou66.com玉豆免费节点)_1","server":"156.146.38.168","port":443,"cipher":"aes-128-gcm","password":"shadowsocks"}
-  - {"type":"ss","name":"德国(yudou66.com玉豆免费节点)_1","server":"45.87.175.171","port":8080,"cipher":"chacha20-ietf-poly1305","password":"cvII85TrW6n0OGyfpHVS1u"}
-  - {"type":"ss","name":"美国(yudou66.com玉豆免费节点)_2","server":"208.67.105.196","port":42029,"cipher":"chacha20-ietf-poly1305","password":"SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD"}
-  - {"type":"ss","name":"美国(yudou66.com玉豆免费节点)_3","server":"167.88.61.111","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"美国","server":"167.88.61.111","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"美国(yudou66.com玉豆免费节点)_4","server":"45.87.175.181","port":8080,"cipher":"chacha20-ietf-poly1305","password":"cvII85TrW6n0OGyfpHVS1u"}
-  - {"type":"ss","name":"德国(yudou66.com玉豆免费节点)_2","server":"45.87.175.181","port":8080,"cipher":"chacha20-ietf-poly1305","password":"cvII85TrW6n0OGyfpHVS1u"}
+  - {"type":"trojan","name":"13,14|日本|@ripaojiedian","server":"36.151.192.203","port":44673,"password":"QwwHvrnN","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"vless","name":"15|US_speednode_0058","server":"xn--b6gac.eu.org","port":8080,"uuid":"464d644c-9c10-4c02-9117-4c75b0c347cd","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"wwwvisacomsg.mshcgb8q.workers.dev","ws-opts":{"path":"/","headers":{"host":"wwwvisacomsg.mshcgb8q.workers.dev"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国+V2CROSS.COM
-      - 丹麦V2CROSS.COM
-      - 🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大->🇪🇸_ES_西班牙
-      - 🇬🇧_GB_英国
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
-      - 荷兰(yudou66.com玉豆免费节点)
-      - 美国(yudou66.com玉豆免费节点)_1
-      - 德国(yudou66.com玉豆免费节点)_1
-      - 美国(yudou66.com玉豆免费节点)_2
-      - 美国(yudou66.com玉豆免费节点)_3
-      - 美国
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 德国(yudou66.com玉豆免费节点)_2
+      - 13,14|日本|@ripaojiedian
+      - 15|US_speednode_0058
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美国+V2CROSS.COM
-      - 丹麦V2CROSS.COM
-      - 🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大->🇪🇸_ES_西班牙
-      - 🇬🇧_GB_英国
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
-      - 荷兰(yudou66.com玉豆免费节点)
-      - 美国(yudou66.com玉豆免费节点)_1
-      - 德国(yudou66.com玉豆免费节点)_1
-      - 美国(yudou66.com玉豆免费节点)_2
-      - 美国(yudou66.com玉豆免费节点)_3
-      - 美国
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 德国(yudou66.com玉豆免费节点)_2
+      - 13,14|日本|@ripaojiedian
+      - 15|US_speednode_0058
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国+V2CROSS.COM
-      - 丹麦V2CROSS.COM
-      - 🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大->🇪🇸_ES_西班牙
-      - 🇬🇧_GB_英国
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
-      - 荷兰(yudou66.com玉豆免费节点)
-      - 美国(yudou66.com玉豆免费节点)_1
-      - 德国(yudou66.com玉豆免费节点)_1
-      - 美国(yudou66.com玉豆免费节点)_2
-      - 美国(yudou66.com玉豆免费节点)_3
-      - 美国
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 德国(yudou66.com玉豆免费节点)_2
+      - 13,14|日本|@ripaojiedian
+      - 15|US_speednode_0058
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国+V2CROSS.COM
-      - 丹麦V2CROSS.COM
-      - 🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大->🇪🇸_ES_西班牙
-      - 🇬🇧_GB_英国
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
-      - 荷兰(yudou66.com玉豆免费节点)
-      - 美国(yudou66.com玉豆免费节点)_1
-      - 德国(yudou66.com玉豆免费节点)_1
-      - 美国(yudou66.com玉豆免费节点)_2
-      - 美国(yudou66.com玉豆免费节点)_3
-      - 美国
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 德国(yudou66.com玉豆免费节点)_2
+      - 13,14|日本|@ripaojiedian
+      - 15|US_speednode_0058
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国+V2CROSS.COM
-      - 丹麦V2CROSS.COM
-      - 🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大->🇪🇸_ES_西班牙
-      - 🇬🇧_GB_英国
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
-      - 荷兰(yudou66.com玉豆免费节点)
-      - 美国(yudou66.com玉豆免费节点)_1
-      - 德国(yudou66.com玉豆免费节点)_1
-      - 美国(yudou66.com玉豆免费节点)_2
-      - 美国(yudou66.com玉豆免费节点)_3
-      - 美国
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 德国(yudou66.com玉豆免费节点)_2
+      - 13,14|日本|@ripaojiedian
+      - 15|US_speednode_0058
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国+V2CROSS.COM
-      - 丹麦V2CROSS.COM
-      - 🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大->🇪🇸_ES_西班牙
-      - 🇬🇧_GB_英国
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
-      - 荷兰(yudou66.com玉豆免费节点)
-      - 美国(yudou66.com玉豆免费节点)_1
-      - 德国(yudou66.com玉豆免费节点)_1
-      - 美国(yudou66.com玉豆免费节点)_2
-      - 美国(yudou66.com玉豆免费节点)_3
-      - 美国
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 德国(yudou66.com玉豆免费节点)_2
+      - 13,14|日本|@ripaojiedian
+      - 15|US_speednode_0058
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -180,22 +82,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国+V2CROSS.COM
-      - 丹麦V2CROSS.COM
-      - 🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大->🇪🇸_ES_西班牙
-      - 🇬🇧_GB_英国
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
-      - 荷兰(yudou66.com玉豆免费节点)
-      - 美国(yudou66.com玉豆免费节点)_1
-      - 德国(yudou66.com玉豆免费节点)_1
-      - 美国(yudou66.com玉豆免费节点)_2
-      - 美国(yudou66.com玉豆免费节点)_3
-      - 美国
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 德国(yudou66.com玉豆免费节点)_2
+      - 13,14|日本|@ripaojiedian
+      - 15|US_speednode_0058
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
