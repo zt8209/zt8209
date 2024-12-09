@@ -1,0 +1,278 @@
+{
+  "sites": [
+    {
+      "key": "🍑遥遥领先🍑_Douban",
+      "name": "豆瓣👹预览┃YL",
+      "type": 3,
+      "api": "http://193.134.211.100:1888/tv/ijia/4kk/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "http://60.204.211.26:5212/f/38h2/douban.js"
+    },
+    {
+      "key": "🍑遥遥领先🍑_Ifxz",
+      "name": "路飞📺电视┃DS",
+      "type": 3,
+      "api": "https://gitee.com/zizuzile/TV/raw/master/DQ/168.js",
+      "searchable": 1,
+      "changeable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://60.204.211.26:5212/f/9VF2/live_min.txt"
+    },
+    {
+      "key": "🍑遥遥领先🍑_Wogg",
+      "name": "玩偶👽哥哥┃PY",
+      "type": 3,
+      "api": "csp_Wogg",
+      "jar": "http://60.204.211.26:5212/f/8QCY/xwzz.jar",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "http://60.204.211.26:5212/f/gRIG/miyao_k.json",
+        "siteUrl": "https://www.wogg.bf/",
+        "filter": "http://60.204.211.26:5212/f/74uZ/wogg.json"
+      }
+    },
+    {
+      "key": "🍑遥遥领先🍑_zxlb",
+      "name": "蜡笔👻小新┃PY",
+      "type": 3,
+      "api": "csp_kongbai",
+      "jar": "http://60.204.211.26:5212/f/8QCY/xwzz.jar",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "http://60.204.211.26:5212/f/gRIG/miyao_k.json",
+        "siteUrl": "https://duopan.fun",
+        "filter": "http://60.204.211.26:5212/f/74uZ/wogg.json"
+      }
+    },
+    {
+      "key": "🍑遥遥领先🍑_xjs",
+      "name": "夸父🌅逐日┃4K",
+      "type": 3,
+      "api": "csp_Star2",
+      "jar": "http://60.204.211.26:5212/f/8QCY/xwzz.jar",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "commonConfig": "http://60.204.211.26:5212/f/gRIG/miyao_k.json"
+      }
+    },
+    {
+      "key": "🍑遥遥领先🍑_ST4K",
+      "name": "嫦娥🎑奔月┃4K",
+      "playerType": 1,
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": " http://122.228.85.203:1000/api.php/app/"
+    },
+    {
+      "key": "🍑遥遥领先🍑_mgsp",
+      "name": "芒果⚡视频┃4K",
+      "type": 3,
+      "api": "http://193.134.211.100:1888/tv/ijia/4kk/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://60.204.211.26:5212/f/kyT5/mangguo4K.js"
+    },
+    {
+      "key": "🍑遥遥领先🍑_4KAV",
+      "name": "小艾⚡影院┃4K",
+      "type": 3,
+      "api": "http://193.134.211.100:1888/tv/ijia/4kk/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "http://60.204.211.26:5212/f/5Ds6/4K-AV.js"
+    },
+    {
+      "key": "🍑遥遥领先🍑_GZ2K",
+      "name": "瓜子⚡秒播┃2K",
+      "api": "csp_Gz360",
+      "type": 3,
+      "searchable": 1,
+      "playerType": 2,
+      "timeout": 30,
+      "changeable": 0,
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724936798422/xpg1.jar;md5;d982e61fe8a00da65435afd86938d2da"
+    },
+    {
+      "key": "🍑遥遥领先🍑_Ngys",
+      "name": "南瓜⚡秒播┃2K",
+      "type": 3,
+      "api": "csp_WexNgys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "🍑遥遥领先🍑_Czzy",
+      "name": "厂长⚡秒播┃2K",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.czys.pro/"
+    },
+    {
+      "key": "🍑遥遥领先🍑_Nmys",
+      "name": "农民⚡秒播┃2K",
+      "type": 3,
+      "api": "csp_WexNmys",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "🍑遥遥领先🍑_sbb",
+      "name": "素人⚡秒播┃2K",
+      "type": 3,
+      "api": "csp_Subaibai",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "🍑遥遥领先🍑_shys",
+      "name": "烧火⚡秒播┃2K",
+      "type": 3,
+      "api": "csp_Wexsaohuo",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "🍑遥遥领先🍑_zxzj",
+      "name": "在线⚡秒播┃2K",
+      "type": 3,
+      "api": "csp_Zxzj",
+      "ext": "https://www.zxzjhd.com/",
+      "jar": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/custom_spider.jar?ref=master;md5;ca2df82cc6006f2ecfa065159243d880"
+    },
+    {
+      "key": "🍑遥遥领先🍑_Jpys",
+      "name": "金牌⚡秒播┃2K",
+      "type": 3,
+      "api": "csp_Jpys",
+      "jar": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/custom_spider.jar?ref=master;md5;ca2df82cc6006f2ecfa065159243d880"
+    },
+    {
+      "key": "🍑遥遥领先🍑_ttys",
+      "name": "天天🌟狂飙┃DX",
+      "type": 3,
+      "api": "csp_AppTT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "🍑遥遥领先🍑_FreeOK",
+      "name": "自由🌟狂飙┃DX",
+      "type": 3,
+      "api": "csp_FreeOK",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "🍑遥遥领先🍑_xfys",
+      "name": "小枫✨极速┃CJ",
+      "type": 1,
+      "api": "http://110.40.40.249:6321/api.php/provide/vod/?ac=list",
+      "playUrl": "json:https://jx.xiaofengtv.com/M3/json.php/?url=",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "电视剧",
+        "电影",
+        "综艺",
+        "动漫",
+        "短剧",
+        "足球",
+        "记录片"
+      ]
+    },
+    {
+      "key": "🍑遥遥领先🍑_360zy",
+      "name": "三六✨极速┃CJ",
+      "type": 1,
+      "changeable": 0,
+      "api": "https://360zy.com/api.php/provide/vod",
+      "playUrl": "json:http://110.42.3.99:880/rmm.php/?url=",
+      "categories": [
+        "爽文短剧",
+        "国产剧",
+        "国产动漫",
+        "动画电影",
+        "网络电影",
+        "动作片",
+        "喜剧片",
+        "灾难片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "惊悚片",
+        "犯罪片",
+        "冒险片",
+        "悬疑片",
+        "武侠片",
+        "奇幻片",
+        "国产综艺"
+      ]
+    }
+  ],
+  "parses": [
+    {
+      "name": "🍑遥遥领先🍑",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "🍑一马当先🍑",
+      "url": "http://122.228.85.203:7979/api/?key=e5ef7605633990b8d99ee1bfae196786&url=",
+      "type": "1"
+    },
+    {
+      "name": "🍑秒播狂飙🍑",
+      "url": "http://zy.uiovo.com/api/?key=951b4ca48d0f8c77cd8ebbc2e784c441&ud=105&url=",
+      "flag": [
+        "mytv"
+      ],
+      "type": "1"
+    },
+    {
+      "name": "🍑天下无敌🍑",
+      "type": 1,
+      "url": "http://122.228.85.203:7979/api/?key=e5ef7605633990b8d99ee1bfae196786&url="
+    }
+  ],
+  "lives": [
+    {
+      "name": "秒播直播",
+      "type": 0,
+      "url": "https://d.kstore.space/download/7395/xiaohei.txt",
+      "playerType": 1,
+      "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
+    }
+  ],
+  "spider": "https://gitee.com/langli-little-white-dragon-1/little-white-dragon/raw/master/lib/spider.jar",
+  "logo": "https://igdux.top/~wukong1",
+  "homeLogo": "https://igdux.top/~wukong2",
+  "wallpaper": "https://igdux.top/~wukong3"
+}
+
