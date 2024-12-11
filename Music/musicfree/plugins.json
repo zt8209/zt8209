@@ -11,11 +11,6 @@
       "version": "0.3.6"
     },
     {
-      "name": "六月听书",
-      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/6yueting.js",
-      "version": "0.1.5"
-    },
-    {
       "name": "果核音乐",
       "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/ghyinyue.js",
       "version": "0.0.1"
@@ -26,7 +21,7 @@
       "version": "0.0.3"
     },
     {
-      "name": "好听轻音乐",
+      "name": "轻音乐",
       "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/htqyy.js",
       "version": "0.1.0"
     },
