@@ -66,31 +66,6 @@
       "version": "0.0.2"
     },
     {
-      "name": "千千音乐",
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zt8209/zt8209/refs/heads/master/Music/musicfree/plugins/千千音乐.js",
-      "version": "0.1.1"
-    },
-    {
-      "name": "猫耳FM",
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zt8209/zt8209/refs/heads/master/Music/musicfree/plugins/猫耳FM.js",
-      "version": "0.1.2"
-    },
-    {
-      "name": "网易云电台",
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zt8209/zt8209/refs/heads/master/Music/musicfree/plugins/网易云电台.js",
-      "version": "0.0.2"
-    },
-    {
-      "name": "音乐台",
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zt8209/zt8209/refs/heads/master/Music/musicfree/plugins/音乐台.js",
-      "version": "0.0.1"
-    },
-    {
-      "name": "喜马拉雅",
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zt8209/zt8209/refs/heads/master/Music/musicfree/plugins/喜马拉雅.js",
-      "version": "0.1.20"
-    },
-    {
       "name": "bilibili",
       "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zt8209/zt8209/refs/heads/master/Music/musicfree/plugins/bilibili.js",
       "version": "0.1.15"
@@ -105,19 +80,10 @@
       "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zt8209/zt8209/refs/heads/master/Music/musicfree/plugins/kugou.js",
       "version": "0.1.4"
     },
-    {
-      "name": "全民K歌",
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zt8209/zt8209/refs/heads/master/Music/musicfree/plugins/全民K歌.js",
-      "version": "0.1.0"
-    },
+
     {
       "name": "歌词千寻",
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zt8209/zt8209/refs/heads/master/Music/musicfree/plugins/歌词千寻.js",
-      "version": "0.0.0"
-    },
-    {
-      "name": "歌词网",
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zt8209/zt8209/refs/heads/master/Music/musicfree/plugins/歌词网.js",
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zt8209/zt8209/refs/heads/master/Music/musicfree/plugins/geciqianxun.js",
       "version": "0.0.0"
     }
   ]
