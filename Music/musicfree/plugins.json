@@ -66,22 +66,22 @@
       "url": "https://proxy.v2gh.com/https://raw.githubusercontent.com/zt8209/zt8209/master/Music/musicfree/plugins/yinyuetai.js",
       "version": "0.0.1"
     },
-    /*{
+    {
       "name": "歌词千寻",
       "url": "https://proxy.v2gh.com/https://raw.githubusercontent.com/zt8209/zt8209/master/Music/musicfree/plugins/geciqianxun.js",
       "version": "0.0.0"
     },
-     /*{
+    {
       "name": "全民K歌",
       "url": "https://proxy.v2gh.com/https://raw.githubusercontent.com/zt8209/zt8209/master/Music/musicfree/plugins/quanminKge.js",
       "version": "0.1.0"
     },
-   /* {
+   {
       "name": "网易云电台",
       "url": "https://proxy.v2gh.com/https://raw.githubusercontent.com/zt8209/zt8209/master/Music/musicfree/plugins/wangyiyundiantai.js",
       "version": "0.0.2"
     },
-     /*{
+     {
       "name": "歌曲宝",
       "url": "https://proxy.v2gh.com/https://raw.githubusercontent.com/zt8209/zt8209/master/Music/musicfree/plugins/gequbao.js",
       "version": "0.0.5"
