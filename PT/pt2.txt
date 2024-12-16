@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2024-12-09 13:41:39
+#  创建时间：2024-12-16 08:58:23
 #  模版：v2rayse默认模版
-#  节点数量：11
+#  节点数量：3
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,116 +13,60 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"🇺🇸_US_美国->🇨🇦_CA_加拿大_1","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip18.6929198.xyz"}},"server":"190.93.245.103","port":"2082","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇫🇷_FR_法国->🇨🇦_CA_加拿大","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip18.6929198.xyz"}},"server":"146.19.21.61","port":"2082","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"🇺🇸_US_美国->🇨🇳_CN_中国","server":"104.17.148.22","port":8880,"uuid":"460cbc68-b655-4fb3-df58-9e64a82e325f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ch.我的名字伊斯梅洛.site.","ws-opts":{"path":"/melo/","headers":{"host":"ch.我的名字伊斯梅洛.site."}}}
-  - {"type":"vmess","name":"🇬🇧_GB_英国","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip18.6929198.xyz"}},"server":"185.162.229.179","port":"2082","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_US_美国->🇨🇦_CA_加拿大_4","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip18.6929198.xyz"}},"server":"167.68.5.24","port":"2082","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大_1","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip18.6929198.xyz"}},"server":"94.247.142.209","port":"2082","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"🇺🇸_US_美国_3","server":"151.101.128.204","port":80,"uuid":"aa6f3d6e-f835-46ab-e35e-71828493ec4f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"www.meloammn.ir","ws-opts":{"path":"/melo/ws?ed=2048","headers":{"host":"www.meloammn.ir"}}}
-  - {"type":"vmess","name":"🇺🇸_US_美国->🇨🇦_CA_加拿大_5","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip18.6929198.xyz"}},"server":"168.100.6.46","port":"2082","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_2","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip18.6929198.xyz"}},"server":"194.152.44.218","port":"2082","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip18.6929198.xyz"}},"server":"89.116.250.94","port":"2082","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_US_美国->🇨🇦_CA_加拿大_8","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip18.6929198.xyz"}},"server":"154.85.99.206","port":"2082","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"🇺🇸_US_美国_4","server":"151.101.2.219","port":80,"uuid":"c7953896-7bb2-4ce2-c7ca-117b2678b47f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"foffmelo.com","ws-opts":{"path":"/olem/ws?ed=1024","headers":{"host":"foffmelo.com"}}}
+  - {"type":"vless","name":"🇺🇸_US_美国_5","server":"151.101.130.219","port":80,"uuid":"c7953896-7bb2-4ce2-c7ca-117b2678b47f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"foffmelo.com","ws-opts":{"path":"/olem/ws?ed=1024","headers":{"host":"foffmelo.com"}}}
+  - {"type":"vless","name":"🇮🇳_IN_印度->🇺🇸_US_美国","server":"151.101.158.204","port":80,"uuid":"82fc176f-7cc7-40a1-e1ec-af2298e23eab","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"zmaoz.faculty.ucdavis.edu.","ws-opts":{"path":"/olem/ws?ed=64","headers":{"host":"zmaoz.faculty.ucdavis.edu."}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
-      - 🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
-      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_2
-      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇮🇳_IN_印度->🇺🇸_US_美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
-      - 🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
-      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_2
-      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇮🇳_IN_印度->🇺🇸_US_美国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
-      - 🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
-      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_2
-      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇮🇳_IN_印度->🇺🇸_US_美国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
-      - 🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
-      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_2
-      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇮🇳_IN_印度->🇺🇸_US_美国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
-      - 🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
-      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_2
-      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇮🇳_IN_印度->🇺🇸_US_美国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
-      - 🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
-      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_2
-      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇮🇳_IN_印度->🇺🇸_US_美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -145,17 +89,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
-      - 🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
-      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_2
-      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇮🇳_IN_印度->🇺🇸_US_美国
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
