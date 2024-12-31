@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2024-12-30 15:19:15
+#  创建时间：2024-12-31 10:48:19
 #  模版：v2rayse默认模版
-#  节点数量：2
+#  节点数量：4
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,53 +13,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"美国+内华达州克拉克县亨德森市Enzu股份有限公司","server":"23.88.39.22","port":22301,"cipher":"2022-blake3-aes-256-gcm:TczN1j63KbLamEeXYjNQj7d7I/UPhOZWpJ5qBoI/f10=","password":"NMZX2WajjShpecWvxU5TIsPQGJEaC1rF9zCBsA3thJg="}
-  - {"type":"vmess","name":"美国Fastly全球Anycast节点","ws-opts":{"path":"/?ed=2048","headers":{"host":"amd.al"}},"server":"151.101.2.168","port":"80","uuid":"beb7d098-48ba-4be8-a47a-758bf3c470b8","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国Fastly全球Anycast节点","ws-opts":{"path":"/?ed=2048","headers":{"host":"amd.al"}},"server":"151.101.130.168","port":"80","uuid":"beb7d098-48ba-4be8-a47a-758bf3c470b8","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"俄罗斯+V2CROSS.COM","server":"185.22.155.228","port":23456,"cipher":"aes-256-gcm","password":"dongtaiwang.com"}
+  - {"type":"vmess","name":"伊朗V2CROSS.COM","server":"92.242.220.22","port":"37885","uuid":"8dee19ab-50ce-4d06-be42-5e53c8989ccc","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"美国+V2CROSS.COM","server":"bz02.ssr.ee","port":443,"password":"9d0a75d2-f747-4afa-b43f-d208af9e8f9a","udp":true,"skip-cert-verify":true,"sni":"bz02.ssr.ee","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国+内华达州克拉克县亨德森市Enzu股份有限公司
       - 美国Fastly全球Anycast节点
+      - 俄罗斯+V2CROSS.COM
+      - 伊朗V2CROSS.COM
+      - 美国+V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美国+内华达州克拉克县亨德森市Enzu股份有限公司
       - 美国Fastly全球Anycast节点
+      - 俄罗斯+V2CROSS.COM
+      - 伊朗V2CROSS.COM
+      - 美国+V2CROSS.COM
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国+内华达州克拉克县亨德森市Enzu股份有限公司
       - 美国Fastly全球Anycast节点
+      - 俄罗斯+V2CROSS.COM
+      - 伊朗V2CROSS.COM
+      - 美国+V2CROSS.COM
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国+内华达州克拉克县亨德森市Enzu股份有限公司
       - 美国Fastly全球Anycast节点
+      - 俄罗斯+V2CROSS.COM
+      - 伊朗V2CROSS.COM
+      - 美国+V2CROSS.COM
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国+内华达州克拉克县亨德森市Enzu股份有限公司
       - 美国Fastly全球Anycast节点
+      - 俄罗斯+V2CROSS.COM
+      - 伊朗V2CROSS.COM
+      - 美国+V2CROSS.COM
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国+内华达州克拉克县亨德森市Enzu股份有限公司
       - 美国Fastly全球Anycast节点
+      - 俄罗斯+V2CROSS.COM
+      - 伊朗V2CROSS.COM
+      - 美国+V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,8 +96,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国+内华达州克拉克县亨德森市Enzu股份有限公司
       - 美国Fastly全球Anycast节点
+      - 俄罗斯+V2CROSS.COM
+      - 伊朗V2CROSS.COM
+      - 美国+V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
