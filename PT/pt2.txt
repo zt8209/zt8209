@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2024-12-30 15:19:35
+#  创建时间：2025-01-10 15:42:12
 #  模版：v2rayse默认模版
-#  节点数量：7
+#  节点数量：1
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,88 +13,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"江苏省+移动","server":"36.150.215.196","port":42395,"password":"lidnBTGb","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"trojan","name":"美国+Amazon数据中心_1","server":"18.153.143.35","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trojan.burgerip.co.uk","network":"tcp"}
-  - {"type":"trojan","name":"德国+黑森州法兰克福Amazon数据中心","server":"18.185.29.99","port":22222,"password":"telegram-id-directvpn","udp":true,"skip-cert-verify":true,"sni":"trojan.burgerip.co.uk","network":"tcp"}
-  - {"type":"trojan","name":"美国+Amazon数据中心_2","server":"18.159.67.87","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trojan.burgerip.co.uk","network":"tcp"}
-  - {"type":"trojan","name":"美国+加州","server":"216.24.57.30","port":443,"password":"tg-fq521free","udp":true,"skip-cert-verify":true,"sni":"torjan.xn--xhq44j.eu.org","network":"ws","ws-opts":{"path":"/","headers":{"host":"torjan.xn--xhq44j.eu.org"}}}
-  - {"type":"trojan","name":"美国+麻省理工学院","server":"18.135.68.81","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trojan.burgerip.co.uk","network":"tcp"}
-  - {"type":"ss","name":"俄罗斯+V2CROSS.COM","server":"185.22.155.228","port":23456,"cipher":"aes-256-gcm","password":"dongtaiwang.com"}
+  - {"type":"trojan","name":"德国+黑森州法兰克福Amazon数据中心","server":"18.185.168.138","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trojan.burgerip.co.uk","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 江苏省+移动
-      - 美国+Amazon数据中心_1
       - 德国+黑森州法兰克福Amazon数据中心
-      - 美国+Amazon数据中心_2
-      - 美国+加州
-      - 美国+麻省理工学院
-      - 俄罗斯+V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 江苏省+移动
-      - 美国+Amazon数据中心_1
       - 德国+黑森州法兰克福Amazon数据中心
-      - 美国+Amazon数据中心_2
-      - 美国+加州
-      - 美国+麻省理工学院
-      - 俄罗斯+V2CROSS.COM
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 江苏省+移动
-      - 美国+Amazon数据中心_1
       - 德国+黑森州法兰克福Amazon数据中心
-      - 美国+Amazon数据中心_2
-      - 美国+加州
-      - 美国+麻省理工学院
-      - 俄罗斯+V2CROSS.COM
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 江苏省+移动
-      - 美国+Amazon数据中心_1
       - 德国+黑森州法兰克福Amazon数据中心
-      - 美国+Amazon数据中心_2
-      - 美国+加州
-      - 美国+麻省理工学院
-      - 俄罗斯+V2CROSS.COM
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 江苏省+移动
-      - 美国+Amazon数据中心_1
       - 德国+黑森州法兰克福Amazon数据中心
-      - 美国+Amazon数据中心_2
-      - 美国+加州
-      - 美国+麻省理工学院
-      - 俄罗斯+V2CROSS.COM
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 江苏省+移动
-      - 美国+Amazon数据中心_1
       - 德国+黑森州法兰克福Amazon数据中心
-      - 美国+Amazon数据中心_2
-      - 美国+加州
-      - 美国+麻省理工学院
-      - 俄罗斯+V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -117,13 +75,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 江苏省+移动
-      - 美国+Amazon数据中心_1
       - 德国+黑森州法兰克福Amazon数据中心
-      - 美国+Amazon数据中心_2
-      - 美国+加州
-      - 美国+麻省理工学院
-      - 俄罗斯+V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
