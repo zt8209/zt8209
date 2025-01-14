@@ -1,7 +1,7 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2025-01-10 15:41:49
+#  创建时间：2025-01-14 13:12:53
 #  模版：v2rayse默认模版
 #  节点数量：1
 #-------------------------------------------------------------#
@@ -13,46 +13,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"英国+Microsoft公司","server":"51.13.182.231","port":3089,"cipher":"chacha20-ietf-poly1305","password":"J0lgxy4mb52CIJ8UUcEgts"}
+  - {"type":"trojan","name":"美国+亚特兰大","server":"tw01.trojanyyds.xyz","port":443,"password":"243eab52-9ac1-405c-887c-eb112c0985b8","udp":true,"skip-cert-verify":true,"sni":"tw01.trojanyyds.xyz","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 英国+Microsoft公司
+      - 美国+亚特兰大
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 英国+Microsoft公司
+      - 美国+亚特兰大
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 英国+Microsoft公司
+      - 美国+亚特兰大
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 英国+Microsoft公司
+      - 美国+亚特兰大
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 英国+Microsoft公司
+      - 美国+亚特兰大
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 英国+Microsoft公司
+      - 美国+亚特兰大
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -75,7 +75,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 英国+Microsoft公司
+      - 美国+亚特兰大
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
