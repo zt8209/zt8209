@@ -1,6 +1,4 @@
-█████████████████████████████████████████████
-2025-07-14 04:19上线 代理源 云南电信,#genre#
-█████████████████████████████████████████████
+云南电信,#genre#
 CCTV1综合,http://116.52.175.47:29999/mgtv/608807420.m3u8
 CCTV2财经,http://116.52.175.47:29999/mgtv/631780532.m3u8
 CCTV3综艺,http://116.52.175.47:29999/mgtv/624878271.m3u8
@@ -187,9 +185,8 @@ CGTN主频,http://116.52.175.47:29999/nptv/cgtn.m3u8
 Fashion 4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
 Loupe 4K,https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 Love Nature 4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-█████████████████████████████████████████████
-2025-07-13 02:49上线 代理源 广东电信,#genre#
-█████████████████████████████████████████████
+
+广东电信,#genre#
 CCTV1综合,http://113.68.139.107:5000/mgtv/608807420.m3u8
 CCTV2财经,http://113.68.139.107:5000/mgtv/631780532.m3u8
 CCTV3综艺,http://113.68.139.107:5000/mgtv/624878271.m3u8
@@ -376,9 +373,9 @@ CGTN主频,http://113.68.139.107:5000/nptv/cgtn.m3u8
 Fashion 4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
 Loupe 4K,https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 Love Nature 4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-█████████████████████████████████████████████
-2025-07-12 21:41上线 代理源 江苏电信,#genre#
-█████████████████████████████████████████████
+
+江苏电信,#genre#
+
 CCTV1综合,http://43.248.96.56:8880/mgtv/608807420.m3u8
 CCTV2财经,http://43.248.96.56:8880/mgtv/631780532.m3u8
 CCTV3综艺,http://43.248.96.56:8880/mgtv/624878271.m3u8
@@ -565,9 +562,9 @@ CGTN主频,http://43.248.96.56:8880/nptv/cgtn.m3u8
 Fashion 4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
 Loupe 4K,https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 Love Nature 4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-█████████████████████████████████████████████
-2025-07-12 03:10上线 代理源 湖北电信,#genre#
-█████████████████████████████████████████████
+
+湖北电信,#genre#
+
 CCTV1综合,http://221.232.196.22:38088/mgtv/608807420.m3u8
 CCTV2财经,http://221.232.196.22:38088/mgtv/631780532.m3u8
 CCTV3综艺,http://221.232.196.22:38088/mgtv/624878271.m3u8
@@ -755,9 +752,8 @@ Fashion 4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_d
 Loupe 4K,https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 Love Nature 4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 
-█████████████████████████████████████████████
-2025-07-11 14:05上线 代理源 江西电信,#genre#
-█████████████████████████████████████████████
+江西电信,#genre#
+
 CCTV1综合,http://117.43.156.34:54321/mgtv/608807420.m3u8
 CCTV2财经,http://117.43.156.34:54321/mgtv/631780532.m3u8
 CCTV3综艺,http://117.43.156.34:54321/mgtv/624878271.m3u8
@@ -944,9 +940,9 @@ CGTN主频,http://117.43.156.34:54321/nptv/cgtn.m3u8
 Fashion 4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
 Loupe 4K,https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 Love Nature 4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-█████████████████████████████████████████████
-2025-07-11 10:10上线 代理源 河南电信,#genre#
-█████████████████████████████████████████████
+
+河南电信,#genre#
+
 CCTV1综合,http://123.53.244.236:34567/mgtv/608807420.m3u8
 CCTV2财经,http://123.53.244.236:34567/mgtv/631780532.m3u8
 CCTV3综艺,http://123.53.244.236:34567/mgtv/624878271.m3u8
@@ -1134,10 +1130,8 @@ Fashion 4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_d
 Loupe 4K,https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 Love Nature 4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 
+广西电信,#genre#
 
-█████████████████████████████████████████████
-2025-07-08 13:23上线 代理源 广西电信,#genre#
-█████████████████████████████████████████████
 CCTV1综合,http://aiony.top:35455/mgtv/608807420.m3u8
 CCTV2财经,http://aiony.top:35455/mgtv/631780532.m3u8
 CCTV3综艺,http://aiony.top:35455/mgtv/624878271.m3u8
@@ -1324,9 +1318,9 @@ CGTN主频,http://aiony.top:35455/nptv/cgtn.m3u8
 Fashion 4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
 Loupe 4K,https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 Love Nature 4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-█████████████████████████████████████████████
-BST直播源20250714,#genre#
-█████████████████████████████████████████████
+
+BST直播源,#genre#
+
 CCTV-1HD-BST,http://116.52.175.47:29999/bst/cctv1hd@4000000.m3u8
 CCTV-2HD-BST,http://116.52.175.47:29999/bst/cctv2hd8m@8000000.m3u8
 CCTV-3HD-BST,http://116.52.175.47:29999/bst/cctv3hd@4000000.m3u8
@@ -1424,9 +1418,9 @@ CGTN-BST,http://116.52.175.47:29999/bst/cctvnews@2500000.m3u8
 星光影院HD-BST,http://116.52.175.47:29999/bst/xgyyvcc4m@4000000.m3u8
 央广购物-BST,http://116.52.175.47:29999/bst/yggwsd2d5m@2500000.m3u8
 游戏风云HD-BST,http://116.52.175.47:29999/bst/yxfyhd@4000
-█████████████████████████████████████████████
-BST直播源20250713,#genre#
-█████████████████████████████████████████████
+
+BST直播源,#genre#
+
 CCTV-1HD-BST,http://113.68.139.107:5000/bst/cctv1hd@4000000.m3u8
 CCTV-2HD-BST,http://113.68.139.107:5000/bst/cctv2hd8m@8000000.m3u8
 CCTV-3HD-BST,http://113.68.139.107:5000/bst/cctv3hd@4000000.m3u8
@@ -1525,9 +1519,8 @@ CGTN-BST,http://113.68.139.107:5000/bst/cctvnews@2500000.m3u8
 央广购物-BST,http://113.68.139.107:5000/bst/yggwsd2d5m@2500000.m3u8
 游戏风云HD-BST,http://113.68.139.107:5000/bst/yxfyhd@4000000.m3u8
 
-█████████████████████████████████████████████
 BST直播源20250712,#genre#
-█████████████████████████████████████████████
+
 CCTV-1HD-BST,http://221.232.196.22:38088/bst/cctv1hd@4000000.m3u8
 CCTV-2HD-BST,http://221.232.196.22:38088/bst/cctv2hd8m@8000000.m3u8
 CCTV-3HD-BST,http://221.232.196.22:38088/bst/cctv3hd@4000000.m3u8
