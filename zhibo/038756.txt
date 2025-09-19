@@ -1,0 +1,17 @@
+松视1,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
+松视1,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
+松视1,http://iptv.4666888.xyz/iptv.php?id=20143
+松视2,http://iptv.4666888.xyz/iptv.php?id=20144
+松视2,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
+松视3,http://iptv.4666888.xyz/iptv.php?id=20145
+彩虹e,http://live.tinktek.net:80/live/81c2a504b8bdd86303b1749b345a0d55.flv
+彩虹k,http://live.tinktek.net:80/live/933c24fe486c61d74c30de7432965157.flv
+彩虹电影台,http://live.tinktek.net:80/live/297a79deb657737b0cfc9de6bbec36d0.flv
+潘多拉,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/86.ts
+潘多拉,http://live.tinktek.net:80/live/e083175963302b78ef2397623712e510.flv
+惊艳台,http://live.tinktek.net:80/live/3fb7ac8d57839b833f85dc0ee415f33f.flv
+惊艳台,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
+惊艳台,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
+香蕉,http://live.tinktek.net:80/live/1ca61077f7302be8bbdad2e91ef4284c.flv
+happy,http://live.tinktek.net:80/live/c1898f6366de6cf8ae8b3629854dfc54.flv
+极限电影台,http://live.tinktek.net:80/live/f07ccf302385e12d88d0130e5827b8d9.flv
