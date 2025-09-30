@@ -1,3 +1,0 @@
-线路地址：http://yuhuahx.com/育华学堂/斧头帮.php
-
-clan://localhost/tvbox/斧头帮/斧头帮.json
