@@ -1,0 +1,1 @@
+clan://localhost/tvbox/node.mac-cms/node.mac-cms.json
