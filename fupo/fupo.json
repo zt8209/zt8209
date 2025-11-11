@@ -58,88 +58,7 @@
                 "ratio": 1.485
             }
         },
-        {
-            "key": "🍑遥遥领先🍑_AVso",
-            "name": "AVso",
-            "type": 3,
-            "changeable": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "style": {
-                "type": "rect",
-                "ratio": 1.485
-            },
-            "ext": {
-                "语言": "中文",
-                "请求头": "手机",
-                "地址发布页": "",
-                "主页url": "https://gpk.avso26.icu/",
-                "标题": "title=\"&&\"",
-                "副标题": "class=\"video-hd-mark\">&&</span>",
-                "图片": "data-src=\"&&\"",
-                "简介": "name=\"description\" content=\"&&\"/>",
-                "数组": "class=\"thumb\"&&class=\"metadata\">&&</div>",
-                "免嗅": "1",
-                "嗅探词": ".m3u8",
-                "跳转播放链接": "url\":\"&&\"",
-                "分类数组": "<li&&</li>",
-                "分类标题": ">&&</a>",
-                "分类ID": "href=\"/?k=&&&top\"",
-                "分类url": "https://gpk.avso26.icu/?k={cateId}&p={catePg}",
-                "直接播放": "1"
-            }
-        },
-        {
-            "key": "🍑遥遥领先🍑_AVs",
-            "name": "AVs",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": {
-                "请求头": "手机",
-                "主页url": "https://gpk.avso26.icu/",
-                "直接播放": "1",
-                "免嗅": "1",
-                "嗅探词": ".m3u8",
-                "跳转播放链接": "url\":\"&&\"",
-                "数组": "class=\"thumb\"&&class=\"metadata\">&&</div>",
-                "标题": "title=\"&&\"",
-                "简介": "name=\"description\" content=\"&&\"/>",
-                "副标题": "class=\"video-hd-mark\">&&</span>",
-                "图片": "data-src=\"&&\"",
-                "分类数组": "<li&&</li>",
-                "分类标题": ">&&</a>",
-                "分类": "口交$Blowjob-15#异族$Interracial-27#印度$Indian-89#亚洲$Asian_Woman-32#少女$Teen-13#巨臀$Big_Ass-24#美臀$Ass-14#中出$Creampie-40#巨屌$Big_Cock-34#黑人$Black_Woman-30#阿拉伯$Arab-159#家庭$Fucked_Up_Family-81#另类$ASMR-229#涂油$Oiled-22#出轨$Cuckold-237#辣妈$Milf-19#开裂$Gapes-167#拉丁裔$Latina-16#肛交$Anal-12",
-                "分类url": "https://gpk.avso26.icu/c/{cateId}/{catePg}"
-            }
-        },
-        
-        {
-            "key": "🍑遥遥领先🍑_txcyeat",
-            "name": "溏心次元",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "style": {
-                "ratio": 1.7
-            },
-            "ext": {
-                "数组": "<li&&</li>",
-                "搜索url": "https://www.txcyeat.buzz/index.php/vodsearch/{wd}----------{pg}---.html",
-                "副标题": "添加时间:&&</span>",
-                "主页url": "https://www.txcyeat.buzz/index.php/label/sort.html",
-                "分类二次截取": "<body>&&</body>[替换:/span>>/p#span>>classfont\"]",
-                "分类数组": "<li&&</li>",
-                "分类标题": "classfont\">&&</p>",
-                "分类ID": "index.php/vodtype/&&.html",
-                "分类url": "https://www.txcyeat.buzz/index.php/vodtype/{cateId}-{catePg}.html;;z"
-            }
-        },
-       
+ 
         {
             "key": "🍑遥遥领先🍑_AVsq",
             "name": "AVsq",
@@ -162,30 +81,6 @@
                 "分类标题": ">&&</a",
                 "分类ID": "/vodtype/&&.html",
                 "分类链接": "https://vip.woaav.online:13097/vodshow/{cateId}--------{catePg}---.html"
-            }
-        },
-        
-       
-        {
-            "key": "🍑遥遥领先🍑_51cg",
-            "name": "51cg",
-            "type": 3,
-            "filterable": 1,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": {
-                "直接播放": "1",
-                "免嗅": "1",
-                "主页url": "https://hy9vz1.pthjsv.com/",
-                "数组": "<article itemscope&&</article>",
-                "图片": "loadBannerDirect('&&'",
-                "标题": "headline\">&&</h2>",
-                "链接": "href=\"&&\"",
-                "副标题": "<span>&&</span>",
-                "播放列表": "",
-                "播放链接": "",
-                "分类url": "https://hy9vz1.pthjsv.com/category/{cateId}/{catePg}/",
-                "分类": "今日吃瓜$wpcz#热门大瓜$rdsj#必看大瓜$bkdg#网红黑料$whhl#学生校园$xsxy#明星黑料$whmx#领导干部$ldcg#海外吃瓜$hwcg#内涵段子$qubk#人人吃瓜$rrcg#吃瓜新闻$cgxw#看片娱乐$ysyl#每日大瓜$mrdg"
             }
         }
         
