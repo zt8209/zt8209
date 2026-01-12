@@ -20,15 +20,6 @@
     }],
 "sites":[
 {
-"key": "色猫",
-"name": "色猫2",
-"type": 1,
-"api": "https://api.maozyapi.com/inc/apijson_vod.php",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1
-},
-{
 "key": "ms4nii",
 "name": "美少女",
 "type": 0,
@@ -79,15 +70,7 @@
 "quickSearch": 1,
 "filterable": 1
 },
-{
-"key": "*易看资源",
-"name": "易看资源",
-"type": 1,
-"api": "https://api.yikanapi.com/api.php/provide/vod/",
-"searchable": 0,
-"quickSearch": 0,
-"filterable": 0
-},
+
 {
 "key": "dadiapi.com",
 "name": "成人01",
@@ -104,22 +87,7 @@
 "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
 }
 },
-{
-"key": "f2dcj6.com",
-"name": "成人02",
-"type": 0,
-"api": "http://f2dcj6.com/sapi?ac=videolist",
-"searchable": 1,
-"recordable": 0,
-"style": {
-"type": "rect",
-"ratio": 1.33
-},
-"header": {
-"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-"User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
-}
-},
+
 {
 "key": "gdlsp.com",
 "name": "成人03",
@@ -229,7 +197,7 @@
       "searchable": 0
     },
 {"key":"*乐播资源","name":"*🔞乐播资源","type":1,"api":"https://lbapi9.com/api.php/provide/vod/","searchable":0,"quickSearch":0},
-{"key":"*博天堂","name":"*🔞博天堂","type":0,"api":"http://bttcj.com/inc/sapi.php","searchable":0,"quickSearch":0},
+
 { "key": "(18+)天堂福利", "name": "🔞天堂福利", "type": 0, "api": "https://bttcj.com/inc/sapi.php", "searchable": 1, "quickSearch": 1, "filterable": 0 },
         { "key": "KpgxdyE", "name": "🔞黄AV资源(已修复)", "type": 0, "api": "https://www.pgxdy.com/api/xml.php", "searchable": 1, "quickSearch": 1, "filterable": 1 },
 {"key": "橘猫资源","name": "🔞橘猫资源","type": 1,"api": "https://to.to-long.com/api.php/provide/vod/", "searchable": 1,"quickSearch": 1, "filterable": 0 },
