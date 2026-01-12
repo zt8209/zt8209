@@ -43,23 +43,7 @@
             "searchable": 1,
             "filterable": 1
         },
-        
-        {
-            "key": "🍑遥遥领先🍑_Zuise",
-            "name": "最色",
-            "type": 3,
-            "api": "csp_Zuise",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "style": {
-                "type": "rect",
-                "ratio": 1.485
-            },
-            "ext": "null$$$null$$$1"
-        },
-       
+              
         {
             "key": "🍑遥遥领先🍑_xvideos",
             "name": "XX",
