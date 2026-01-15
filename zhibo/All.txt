@@ -22,6 +22,7 @@ CCTV4中文国际欧洲,http://120.6.111.165:8088/rtp/239.253.93.192:6370
 CCTV4中文国际美洲,http://120.6.111.165:8088/rtp/239.253.93.193:6371
 CGTN 英文记录,http://120.6.111.165:8088/rtp/239.253.93.195:6373
 央视2,#genre# 
+CCTV1,https://iptv.catvod.com/live.php?id=CCTV1
 CCTV2,https://iptv.catvod.com/live.php?id=CCTV2
 CCTV3,https://iptv.catvod.com/live.php?id=CCTV3
 CCTV4,https://iptv.catvod.com/live.php?id=CCTV4
