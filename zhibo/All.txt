@@ -1,4 +1,4 @@
-央视,#genre#
+央视1,#genre#
 CCTV-1综合,http://120.6.111.165:8088/rtp/239.253.92.83:8012
 CCTV-2财经,http://120.6.111.165:8088/rtp/239.253.92.190:6065
 CCTV-3综艺,http://120.6.111.165:8088/rtp/239.253.92.191:6057
@@ -21,7 +21,7 @@ CCTV-4K,http://120.6.111.165:8088/rtp/239.253.93.134:6631
 CCTV4中文国际欧洲,http://120.6.111.165:8088/rtp/239.253.93.192:6370
 CCTV4中文国际美洲,http://120.6.111.165:8088/rtp/239.253.93.193:6371
 CGTN 英文记录,http://120.6.111.165:8088/rtp/239.253.93.195:6373
-央视,#genre# 
+央视2,#genre# 
 CCTV2,https://iptv.catvod.com/live.php?id=CCTV2
 CCTV3,https://iptv.catvod.com/live.php?id=CCTV3
 CCTV4,https://iptv.catvod.com/live.php?id=CCTV4
@@ -39,7 +39,7 @@ CCTV15,https://iptv.catvod.com/live.php?id=CCTV15
 CCTV16,https://iptv.catvod.com/live.php?id=CCTV16
 CCTV17,https://iptv.catvod.com/live.php?id=CCTV17
 CCTV4K,https://iptv.catvod.com/live.php?id=CCTV4K
-卫视,#genre#
+卫视1,#genre#
 湖南卫视高清,http://120.6.111.165:8088/rtp/239.253.92.84:8015
 浙江卫视高清,http://120.6.111.165:8088/rtp/239.253.92.90:8020
 江苏卫视高清,http://120.6.111.165:8088/rtp/239.253.92.88:8018
@@ -63,7 +63,7 @@ CCTV4K,https://iptv.catvod.com/live.php?id=CCTV4K
 江西卫视高清,http://120.6.111.165:8088/rtp/239.253.92.19:6145
 吉林卫视高清,http://120.6.111.165:8088/rtp/239.253.92.202:6147
 海南卫视高清,http://120.6.111.165:8088/rtp/239.253.93.155:6323
-卫视,#genre# 
+卫视2,#genre# 
 北京卫视,https://iptv.catvod.com/live.php?id=%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86
 东方卫视,https://iptv.catvod.com/live.php?id=%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86
 天津卫视,https://iptv.catvod.com/live.php?id=%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86
