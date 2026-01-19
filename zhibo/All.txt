@@ -349,7 +349,7 @@ Hallmark Family,https://fl1.moveonjoy.com/HALLMARK_DRAMA/index.m3u8
 Hallmark Mystery,https://fl1.moveonjoy.com/HALLMARK_MOVIES_MYSTERIES/index.m3u8
 Lifetime,http://fl1.moveonjoy.com/LIFETIME/index.m3u8
 YES Network,https://fl1.moveonjoy.com/YES_NETWORK/index.m3u8
-广播,#genre#
+国际广播,#genre#
 BBC World Service,http://as-hls-ww-live.akamaized.net/pool_87948813/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d96000.norewind.m3u8
 CNN,https://tunein.cdnstream1.com/3519_96.aac
 CNA,https://14033.live.streamtheworld.com/938NOW_PREM.aac
@@ -378,6 +378,7 @@ BBC Radio 4 Extra,http://as-hls-ww-live.akamaized.net/pool_26173715/live/ww/bbc_
 BBC Radio 5 Live,http://as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%3d96000.norewind.m3u8
 BBC Radio 6 Music,http://as-hls-ww-live.akamaized.net/pool_81827798/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d96000.norewind.m3u8
 BBC Radio Asian Network,http://as-hls-ww-live.akamaized.net/pool_22108647/live/ww/bbc_asian_network/bbc_asian_network.isml/bbc_asian_network-audio%3d96000.norewind.m3u8
+国内广播,#genre#
 CNR中国之声,https://radio.0472.org/?id=639
 CNR经济之声,https://radio.0472.org/?id=640
 CNR环球资讯,https://radio.0472.org/?id=692
