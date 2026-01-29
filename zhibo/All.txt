@@ -366,35 +366,28 @@ BBC Radio 5 Live,http://as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_r
 BBC Radio 6 Music,http://as-hls-ww-live.akamaized.net/pool_81827798/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d96000.norewind.m3u8
 BBC Radio Asian Network,http://as-hls-ww-live.akamaized.net/pool_22108647/live/ww/bbc_asian_network/bbc_asian_network.isml/bbc_asian_network-audio%3d96000.norewind.m3u8
 国内广播,#genre#
-CNR中国之声,https://radio.0472.org/?id=639
-CNR经济之声,https://radio.0472.org/?id=640
-CNR环球资讯,https://radio.0472.org/?id=692
-CNR音乐之声,https://radio.0472.org/?id=641
-CNR交通广播,https://radio.0472.org/?id=653
-CNR文艺之声,https://radio.0472.org/?id=648
-CNR湾区之声,https://radio.0472.org/?id=645
-CNR经典音乐,https://radio.0472.org/?id=642
-CNR台海之声,https://radio.0472.org/?id=643
-CNR神州之声,https://radio.0472.org/?id=644
-CNR香港之声,https://radio.0472.org/?id=646
-CNR民族之声,https://radio.0472.org/?id=647
-CNR老年之声,https://radio.0472.org/?id=649
-CNR乡村之声,https://radio.0472.org/?id=654
-CNR南海之声,https://radio.0472.org/?id=664
+陕西都市广播-陕广新闻 FM101.8,http://radio.sxtvs.com/radio/city.mp3
+陕西故事广播 AM603,http://radio.sxtvs.com/radio/story.mp3
+陕西交通广播 FM91.6,http://radio.sxtvs.com/radio/traffic.mp3
+陕西农村广播 AM900,http://radio.sxtvs.com/radio/country.mp3
+陕西汽车调频 FM89.6,http://radio.sxtvs.com/radio/encnomy.mp3
+陕西秦腔广播 FM101.1,http://radio.sxtvs.com/radio/cityopera.mp3
+陕西戏曲广播 AM747,http://radio.sxtvs.com/radio/opera.mp3
+陕西新闻广播 FM106.6,http://radio.sxtvs.com/radio/news.mp3
+陕西音乐广播 FM98.8,http://radio.sxtvs.com/radio/music.mp3
+陕西故事广播,https://radio.0472.org/?id=1133
+陕西音乐广播,https://radio.0472.org/?id=561
 北京交通广播,http://ls.qingting.fm/live/336.m3u8
 北京新闻广播,http://ls.qingting.fm/live/339.m3u8
 北京文艺广播,http://ls.qingting.fm/live/333.m3u8
 北京音乐广播,http://ls.qingting.fm/live/332.m3u8
 北京城市广播,https://brtv-radiolive.rbc.cn/alive/fm1073.m3u8
-北京体育广播,https://brtv-radiolive.rbc.cn/alive/fm1025.m3u8
 北京阳光调频,https://lhttp.qtfm.cn/live/5021739/64k.mp3
 北京经典调频,https://radio.0472.org/?id=1254
 CRI华语环球,http://sk.cri.cn/hyhq.m3u8
 CRI环球资讯,http://sk.cri.cn/905.m3u8
 CRI南海之声,https://sk.cri.cn/nhzs.m3u8
 CRI英语资讯,http://sk.cri.cn/am846.m3u8
-RTHK3,https://rthkradio3-live.akamaized.net/hls/live/2040079/radio3/master.m3u8
-RTHK普通话,https://rthkradiopth-live.akamaized.net/hls/live/2040082/radiopth/master.m3u8
 湖南旅游广播,https://satellitepull.cnr.cn/live/wx32hunlygb/playlist.m3u8
 湖南经济广播,https://radio.0472.org/?id=1056
 湖南新闻频道,https://radio.0472.org/?id=525
@@ -405,37 +398,14 @@ RTHK普通话,https://rthkradiopth-live.akamaized.net/hls/live/2040082/radiopth/
 山西文艺广播,http://radiolive.sxrtv.com/live/wenyi/playlist.m3u8
 江苏文艺广播,http://satellitepull.cnr.cn/live/wx32jswygb/playlist.m3u8
 江苏故事广播,http://satellitepull.cnr.cn/live/wx32jsgsgb/playlist.m3u8
-上海戏曲广播,https://radio.0472.org/?id=1314
-陕西故事广播,https://radio.0472.org/?id=1133
-湖南金鹰之声,https://radio.0472.org/?id=523
-芒果时空音乐,https://radio.0472.org/?id=524
 湖南交通广播,https://radio.0472.org/?id=1059
 湖南音乐之声,https://radio.0472.org/?id=1060
 长沙交通广播,https://radio.0472.org/?id=1061
 长沙音乐广播,https://radio.0472.org/?id=1531
-河北音乐广播,https://radio.0472.org/?id=381
 深圳音乐频率,https://radio.0472.org/?id=498
 南京音乐广播,http://hls.njgb.com/live_hls/4/playlist.m3u8
 江苏音乐广播,https://radio.0472.org/?id=415
-河北汽车音乐,https://radio.pull.hebtv.com/live/hebqcyy.m3u8
 重庆音乐广播,https://radio.0472.org/?id=372
-龙江音乐广播,https://radio.0472.org/?id=552
-内蒙音乐之声,https://radio.0472.org/?id=572
-宁夏音乐广播,https://radio.0472.org/?id=1701
-陕西音乐广播,https://radio.0472.org/?id=561
-青海音乐广播,https://radio.0472.org/?id=616
-山西音乐广播,https://radio.0472.org/?id=637
-山东音乐广播,https://radio.0472.org/?id=702
-安徽音乐广播,https://radio.0472.org/?id=601
-楚天音乐广播,https://radio.0472.org/?id=533
-浙江音乐调频,https://radio.0472.org/?id=928
-厦门音乐广播,https://radio.0472.org/?id=1897
-云南音乐广播,https://radio.0472.org/?id=592
-广西音乐台,https://radio.0472.org/?id=590
-贵州音乐广播,https://radio.0472.org/?id=435
-新疆音乐广播,https://radio.0472.org/?id=1158
-海南音乐广播,https://radio.0472.org/?id=543
-河北文艺广播,http://satellitepull.cnr.cn/live/wxhebwygb/playlist.m3u8
 Radio France Interntional,https://rfienchinois64k.ice.infomaniak.ch/rfienchinois-64.mp3
 BCC News Network,http://stream.rcs.revma.com/78fm9wyy2tzuv
 专题,#genre#
