@@ -371,8 +371,6 @@ BBC Radio Asian Network,http://as-hls-ww-live.akamaized.net/pool_22108647/live/w
 陕西交通广播 FM91.6,http://radio.sxtvs.com/radio/traffic.mp3
 陕西农村广播 AM900,http://radio.sxtvs.com/radio/country.mp3
 陕西汽车调频 FM89.6,http://radio.sxtvs.com/radio/encnomy.mp3
-陕西秦腔广播 FM101.1,http://radio.sxtvs.com/radio/cityopera.mp3
-陕西戏曲广播 AM747,http://radio.sxtvs.com/radio/opera.mp3
 陕西新闻广播 FM106.6,http://radio.sxtvs.com/radio/news.mp3
 陕西音乐广播 FM98.8,http://radio.sxtvs.com/radio/music.mp3
 陕西故事广播,https://radio.0472.org/?id=1133
