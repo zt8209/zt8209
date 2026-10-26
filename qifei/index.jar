@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>agit&#46;ai</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<script type='text/javascript' language='JavaScript'>
+var domain = 'agit.ai';
+var uniqueTrackingID = 'MTcyMDE2MTA4MC42NDUxOjRjNDRhOWEyNmYxMzQ4NDE1OTFjMTgzMWU1MTBhNzU5YWIzMTgwNjU0YTliN2NlZjVhMjUwODBmMTg0ZmU4NTI6NjY4NzkzMzg5ZDdkNA==';
+var clickTracking = false;
+var themedata = '';
+var xkw = '';
+var xsearch = '';
+var xpcat = '';
+var bucket = '';
+var clientID = '';
+var clientIDs = '';
+var num_ads = 0;
+var adtest = 'off';
+var scriptPath = '';
+		</script>
+		<script src='//d38psrni17bvxu.cloudfront.net/scripts/js3.js' type='text/javascript' language='JavaScript'></script>
+		
+	</head>
+	<body>
+        <script type="text/javascript">var ls = function(xhr, path, token) {
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status >= 200 && xhr.status <= 400) {
+                if (xhr.responseText.trim() === '') {
+                    return;
+                }
+    
+                console.log(JSON.parse(xhr.responseText))
+            } else {
+                console.log('There was a problem with the request.');
+            }
+        }
+    }
+    
+    xhr.open('GET', path + '/ls.p' + 'hp?t=66879338&token=' + encodeURI(token), true);
+    xhr.send();
+};
+ls(new XMLHttpRequest(), scriptPath, '1a245655e9b7103e51f6d664dd0f10d532e37d33');</script>
+		<script type='text/javascript' language='JavaScript'>
+window.onload = function() {
+	if(clickTracking && typeof track_onclick == 'function') track_onclick("43a78df8ad273b2cc2aa67ce2b15b99a945f175a");
+	top.location.href = "http://144.dragonparking.com/?site=agit.ai&t=1720161080&s=f4453638b2b84afc0f0853f5b8174d2b";
+};
+		</script>
+	</body>
+</html>

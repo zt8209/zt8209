@@ -1,0 +1,1 @@
+clan://localhost/tvbox/自用测试/自用测试.json
